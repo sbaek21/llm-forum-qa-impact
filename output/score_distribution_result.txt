@@ -1,0 +1,29 @@
+Sample 2020
+Total posts: 1000
+Max score: 9
+Min score: 0
+Average score: 0.27
+
+Sample 2021
+Total posts: 1000
+Max score: 8
+Min score: 0
+Average score: 0.27
+
+Sample 2022
+Total posts: 1000
+Max score: 13
+Min score: 0
+Average score: 0.30
+
+Sample 2023
+Total posts: 1000
+Max score: 7
+Min score: 0
+Average score: 0.23
+
+Sample 2024
+Total posts: 1000
+Max score: 8 
+Min score: 0
+Average score: 0.26

@@ -1,0 +1,38 @@
+2022:
+Found 22 helpful posts with Score > 2
+
+Fuzzy matched 22 of 22 helpful posts (threshold = 0.8)
+
+❌ 0 helpful posts did NOT match any GPT-scored entry:
+0 of 22 helpful posts are likely GPT-generated (0.00%)
+
+📊 Summary Table:
+| Metric                       |   Value |
+|------------------------------|---------|
+| Total Posts Analyzed         |    1000 |
+| Helpful Posts (Score > 2)    |      22 |
+| Matched to GPT Results       |      22 |
+| Likely GPT-Generated (≥ 0.8) |       0 |
+| Unmatched Helpful Posts      |       0 |
+
+2022_HelpfulPosts_GPT_Presence.png
+
+######################################################
+
+2023:
+
+Fuzzy matched 15 of 15 helpful posts (threshold = 0.8)
+
+❌ 0 helpful posts did NOT match any GPT-scored entry:
+0 of 15 helpful posts are likely GPT-generated (0.00%)
+
+📊 Summary Table:
+| Metric                       |   Value |
+|------------------------------|---------|
+| Total Posts Analyzed         |    1000 |
+| Helpful Posts (Score > 2)    |      15 |
+| Matched to GPT Results       |      15 |
+| Likely GPT-Generated (≥ 0.8) |       0 |
+| Unmatched Helpful Posts      |       0 |
+
+2023_HelpfulPosts_GPT_Presence.png

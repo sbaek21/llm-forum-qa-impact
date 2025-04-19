@@ -1,0 +1,9 @@
+2020
+Found 22 helpful posts (Score ≥ 3)
+1 of 19 helpful posts are likely GPT-generated (5.26%)
+
+2022
+Found 22 helpful posts with Score > 2
+0 of 17 helpful posts are likely GPT-generated (0.00%)
+
+2024

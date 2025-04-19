@@ -1,0 +1,1001 @@
+Post Text,Score
+Have you added `FingerprintSDKWrapper.h` to your framework's umbrella header?,0
+Can I ask what your final code looks like for this to work? I've been trying to achieve the same thing even with the patch but if I force the rect like this in WM_NCCALCSIZE Qt doesn't seem to realize we went maximized and just freezes.,0
+You are more likely to get relevant assistance if you post your data as text which can be easily copy pasted and not as a screenshot.,0
+"@OzanTaskiran I was wondering if that factored in. I'm new to this aspect of mobile dev, I'll check this out. Thanks",0
+Are you getting any error messages?,0
+"when i want to create a newer version of the app, should I still use &quot;Generate signed bundle&quot;?",0
+@dbush Yeah obviously there can be uses for them outside production code. I remember utilizing them when demonstrating that clang can't generate infinite loops properly [here](https://stackoverflow.com/a/59928620/584518).,0
+bump - any ideas team?,0
+I couldn't replicate the problem. It worked for me. Can you paste in the final full input tag from developer tools both with and without the autocomplete?,0
+This did the trick!! It worked. Thanks a lot!,0
+"In case of using Spring / ... just additional info: If you are running multiple instance make sure that schedulers are capable of running in parallel or use different profiles / deployments / thread-safe single runners / Shedlock / ... otherwise It can lead to parallel output, DB blockings etc which lead to inconsistencies, missleading error traces or redundent user notifications",0
+"Yes the above solves the first part of the problem (broken linking to the right DLL), thanks a lot @ChuckWalborn!   &#xA;The second part (DXUT device context not working with DX11 FFT) is still under investigation.",0
+Please trim your code to make it easier to find your problem. Follow these guidelines to create a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).,0
+what are you prefer? In Keycloak config I have: Access Token Lifespan = 5 Minutes. So I will set this to 1 hour and in shiro.ini also tosessionManager.globalSessionTimeout= 3600000 ?,0
+Then the `isame` member I just added should have returned `false`.,0
+"Hi Vandad. I'm been following your flutter tutorials for some time now. Thank you for your hard work. Concerning this same issue, at line 9 in this file https://github.com/vandadnp/mynotes-course/blob/8f021cbd58d4a4bb4d962ea2b085242b68bba989/lib/services/auth/auth_service.dart I get `The argument type 'FirebaseAuthProvider' can't be assigned to the parameter type 'AuthProvider'.` I try using a cast as recommended by the error but it doesn't work. Please how do I fix this",0
+"@markp-fuso hey, sorry again for the missing info from my original question. So yes, if I run the command `ncks -v thetao .nc1 .nc2` it works as expected, with the only small problem being that once I run the command it asks me this `ncks: 20130701_d-CMCC--RFVL-MFSe3r1-MED-b20200901_re-sv01.00_crop.nc exists---'e'xit, 'o'verwrite (i.e., clobber existing file), or 'a'ppend (i.e., replace duplicate variables in, and add metadata and new variables to, existing file) (e/o/a)?` and I chose -a ,which I would prefer to automate but am not sure how",0
+Please [don't upload text as image](https://meta.stackoverflow.com/a/285557/13447). Edit your question to contain all the information in text form - consider to use the editor's formatting options. Also see [ask] and check your tags - especially their descriptions. I've removed the irrelevant [tag:apache].,0
+"I've had the similar issue.  Even after solving the problem (I've posted another answer), I am still gettinga related issue where any use of command line commands, eg 'earthengine task list' hits the same problem and throws up the 522309567947 project ID number. I'm now searching for an alternative method, or a modification of that command, to list my active tasks and/or get some info about progress and failures.",0
+"Perhaps you are aware of it, but you do not seem to understand it.  You *can't* pass an array to a function.  The C language does not provide any way to express that.  Your code is no exception.  It passes a *pointer* to function `GetName()`.  Indeed, the issue Isabelle is complaining about seems not to be the function call itself, but rather the automatic array-to-pointer conversion involved in evaluating argument `a.name`.",0
+"This isn't strictly documented, but no. If you didn't explicitly export something from .vue, there's only default export, which is the comp itself - and probably even if you did, because named exports aren't documented in SFC too. There should be index.js entry point, that's how the libs are commonly organized",0
+"For starters your configure method looks wrong, it doesn't setup anything. Next thing is if you are upgrading to Spring Boot 3.x from Spring Boot 2.x you will also need to upgrade your external server to a JakartaEE container. So if you are using Tomcat9 you need to upgrade to Tomcat10 else it won't work.",0
+"What have you tried to resolve the problem? Where are you stuck? Also, please use a proper title for your question, not just a dump of the error message",0
+"But, do you recommend doing it like that in my case, should i use the `[ObservableProperty]` attribute and then set it to a `new` instance instead of using `.Clear()` or `.RemoveAt(i)`. The problem using `new` was the flicker effect and that the `CollectionView` in the UI was cleared (visibly for a user) and then filled with the new elements afterwards. Unfortunately, the type of the `ObservableRangeCollection&lt;...&gt;` is from a Type defined in a C# DLL project and not a MAUI DLL",0
+Plenty of good examples in the official docs: [Inter-Process Communication](https://www.electronjs.org/docs/latest/tutorial/ipc),0
+"How do you do this with an interaction term? fill = interaction(year, id), color = interaction(year, id)",0
+"also sometimes I got this error: Bad token response, error=invalid_grant, description=PKCE code verifier not specified",0
+Please edit the question to limit it to a specific problem with enough detail to identify an adequate answer.,0
+Tried this as well just now but still the same error. The account that I am using is the local admin of my pc and the password is correct as well. Somehow it is not working from PowerShell.,0
+Could you elaborate on 'specific accounts'? You filter out by somehow detecting it comes from Raydium?,0
+A system app with privilieged permissions,0
+Are you sure this problem is directly related to phpMyAdmin or Firefox?,0
+"@artoodetoo, After October 2023, all supported versions of MySQL support window functions. If one is still using MySQL 5.x, it's a security risk.",0
+Does this answer your question? [Using R to list all files with a specified extension](https://stackoverflow.com/questions/4876813/using-r-to-list-all-files-with-a-specified-extension),0
+fun A is being called by service layer.,0
+Are you using EFCore?,0
+Maybe https://stackoverflow.com/questions/6405658/long-request-blocks-other-requests-in-apache-and-php helps?,0
+@B.Letz I edited my post,0
+"Not sure what exactly `guest.post` is, but assuming it is some AJAX/fetch thing, the withCredentials flag would need to be set, for the browser to _accept_ cookies across different origins.",0
+still getting an attempted relative import with no known parent package error,0
+Or this one? https://stackoverflow.com/questions/430750/php-apache-blocking-on-each-request,0
+"I'm sorry. The edit was proposed ~22 hours ago, alongside its related comment, so, before seeing your kind fast reply https://stackoverflow.com/questions/65957633/check-if-array-is-empty-in-bash/65957757?noredirect=1#comment137122170_65957633",0
+[The examples pass paths to pyarrow](https://arrow.apache.org/docs/python/orc.html#) and let it handle opening and reading files internally which seems to be what you need.,0
+@Eliseo good point! :) Thanks :),0
+"The question is tagged [tag:python], so why did you provide a Javascript solution? This does not answer the OP question about errors in their Python code. Further, code-only answers are rarely useful answers, and certainly not in this case.",0
+"If I pass `become: true` and `become_user: root` in the handler, I have no issues. This let me think: since I switch user in the middle of the playbook, does the handler need to run as root explicitly?",0
+I was need open terminal with rosetta and use NVM to install a new Node version because the node version that I had was arm64 ( to see the architeture of current node &#xA;&#xA;&gt; node &#xA;&gt; process.arch&#xA;&gt; 'arm64' ) &#xA;and the error kept appearing.&#xA;&#xA;After of install a new version with terminal opened with Rosetta the architeture was x64 and work fine.,0
+that worked. Thank you so much. Was missing the &quot;accountEnabled&quot; output in that technical profile.,0
+"@markp-fuso also, to your second question, thats exactly it, all of the filename is the same except for those 4 letters which indicate the variables stored",0
+"Actually, I want to change this. It seems like this is a wrong query. I corrected the question. Is there a chance to do it that way? Then I will only see the messages I have pinned.",0
+How would i do that with cmake?,0
+"did you include your app name in your settings.py? can you show your settings.py, and your apps urls.py?",0
+"Done, sorry for taking so long to do it.",0
+That citation from the Standard is a real haystack; you're going to have to pick out the needles.,0
+"You can do end to end tests similar to the second test I provided. With `performClick`, you can click UI buttons that trigger a navigation to the next Composable. With `performTextInput`, you can enter text into a TextField. With `waitUntil`, you can wait a predefined amount of time e.g. for a network operation to finish. So I think you should be able to achieve E2E tests as well.",0
+"@PresidentJamesK.Polk Quoting from [RFC 4768, Introduction, page 3](https://www.rfc-editor.org/rfc/rfc7468#page-3): _The tradition within the RFC series can be traced back to Privacy-&#xA;   Enhanced Mail (PEM) [RFC1421], based on a proposal by Marshall Rose&#xA;   in Message Encapsulation [RFC934].  Originally called &quot;PEM&#xA;   encapsulation mechanism&quot;, [...]_",0
+"And as such, I am inclined to think that the issue reflects a flaw in the validator -- either it has come to an incorrect conclusion (because `a.name` is a valid lvalue at that point, so the object it designates absolutely does have an address), or it has issued a misleading diagnostic.",0
+do you use this config in your config file : server.servlet.context-path ?,0
+"The question is tagged [tag:c++], so why did you provide a Javascript solution? This does not answer the OP question about errors in their C++ code. Further, code-only answers are rarely useful answers, and certainly not in this case.",0
+I like this solution because it learns the OP to combine the data first. I also want to note that this makes it easier to extend with another language.,0
+"It will take some time to sync the logs to Azure Monitor,  still if it is not showing results, kindly  change the Time range to custom and select the date Nov:1:2023 to Today date and check.",0
+"① Please [edit] the bottom code snippet to be a [mre] of you calling your function without third-party or private code, and the expected i/o types so we can all test it.  ② I'm not sure how you intend to &quot;preserve the type&quot; when all the keys are different; you'd need to write a type mapping function that actually converts keys as well.  It's possible that you're looking for [the code at this playground link](https://tsplay.dev/WozdLm).  Is that it? If so, I'll write an answer explaining (but please do [edit] in a [mre] first); if not, what am I missing?",0
+Does this answer your question? [Unexpected errors and warnings when running json-server --watch](https://stackoverflow.com/questions/77787616/unexpected-errors-and-warnings-when-running-json-server-watch),0
+"I tried the above, it doesn't work, pinned messages do not appear in the first messages.",0
+I appreciate you taking the time to answer the questions which was asked. Thank you also for providing explanations.,0
+Does this answer your question? [Unexpected errors and warnings when running json-server --watch](https://stackoverflow.com/questions/77787616/unexpected-errors-and-warnings-when-running-json-server-watch),0
+feel free to accept my answer then :),0
+There were some old proton jars as well in lib folder. I removed the old versions of jar and now getting &quot;jakarta.jms.JMSException: java.nio.channels.ClosedChannelException&quot; at the same line. The code does work using a normal java application and simply using jakarta jms and qpid jms libraries,0
+*I'm not responsible for any change in the page.* - which is why you'd need to include enough context from the link with your answer. Please follow [How to Answer](https://stackoverflow.com/help/how-to-answer) before answering any question.,0
+Hi. Check out issue 7812 I think its related.&#xA;https://github.com/vega/vega-lite/issues/7812&#xA;&#xA;&quot;only selection parameters can be nested within views. Variable parameters can only be defined at the top-level.&quot;,0
+Does this answer your question? [Minimum Spring version compatible with Java 11](https://stackoverflow.com/questions/51427248/minimum-spring-version-compatible-with-java-11) . Answers linked to the thread specifies the spring-boot version too.,0
+"I vote to reopen because (1) this error message is different to the proposed duplicate, and (2) the answers in the &quot;duplicate&quot; are not relevant to this question.",0
+@bhomaidan90 Attached the code snippets for reference.,0
+Rewrite with a generic parameter: https://tsplay.dev/mq0MJN,0
+Workbook and Workbooks are different.  Make sure you are consistent.  Second line should be Excel.Worbooks,0
+"As @AndyWilkinson and https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.2-Release-Notes#upgrading-from-spring-boot-31 mentioned, compile with parameter names. Maybe this is not all you need, but it is a start.",0
+"certain yt videos have restrictions so you cant use it anonymously with API's, you have to provide your google oauth creds to basically use it.",0
+@user692942 Thank you for your suggestion but I already tried that and same result. The test variable as a value of 14833 before the Fix() in both cases (at least according to the Response.Write).,0
+I also fixed it by brew installing a newer version of postgres `brew install postgres@14` even though the remote database is pg 13.10. The failing version from brew was 13.13,0
+"don't use Turtle blank node notation for the `DELETE` and `WHERE` part, i.e.  instead use `?person  :hasAttribute ?attr . ?attr rdf:type  :weight;  :hasValue ?oldWeight  .`",0
+"I accepted your answer, because it made me realize that instead of [:read-only](https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only), I just had to use `[readonly]`!",0
+"Also...  &gt; &quot;This is the requirement for some reason&quot; &lt; If I were you, I would try to figure out what this reason is, because it shouldn't be necessary to do what you're doing.",0
+This is the correct way to do this in modern times.  UNLINK is a very fast operation and combining this with `nc -v &lt;yourredisserver&gt; 6379` I was able to remove 3M keys out of a 95m key redis instance in 2.5 mins. This is on redis 5 and it would be even faster on 6.,0
+Use a different name for your `foo` parameter so it doesn't shadow the outer `str`?,0
+@dalton_c I have tried adding &#xA;#import &lt;FingerprintScanSDK/FingerprintSDKWrapper.h&gt; but I am getting an error &quot;'FingerprintScanSDK/FingerprintSDKWrapper.h' file not found&quot;,0
+the settings.py looks like:,0
+"No, the sign up is successful and the user is visible in the authentication tab in Firebase. Even their email is visible in the Firebase console, but when I try to get it by calling FirebaseAuth.getInstance().currentUser.email, it returns null.",0
+"In fact it describes same issue - interesting enough, that after so many years it's still same for all described browsers. Maybe someone knows an other way to do it for current browsers?",0
+"thanks, this works for me when deploying flutter web",0
+It is: https://developer.apple.com/documentation/appkit/nsworkspace/desktopimageoptionkey/1534270-imagescaling,0
+"Is it possible to set the position of the Arrow using x-axis coordinates, similar to the   `xmin = 2000, xmax = 3000` in my code?  The arrow is not always in the same position, and it is important that the arrow correlate with the numerical values on the x-axis.  My example did not emphasize this requirement, and I apologize.",65
+@Bergi Unfortunately It's not possible for some internal reason,0
+"Problem solved Thanks for guiding me as I am very new to this........PS C:\Users\dewas\OneDrive\Desktop\Projects\React tutorial\tuts&gt; json-server --watch db.json&#xA;&gt;&gt;&#xA;--watch/-w can be omitted, JSON Server 1+ watches for file changes by default&#xA;File db.json not found&#xA;PS C:\Users\dewas\OneDrive\Desktop\Projects\React tutorial\tuts&gt; json-server Data/db.json&#xA;JSON Server started on PORT :3000&#xA;Press CTRL-C to stop&#xA;Watching Data/db.json...&#xA;&#xA;(˶ᵔ ᵕ ᵔ˶)&#xA;&#xA;Index:&#xA;http://localhost:3000/&#xA;&#xA;Static files:&#xA;Serving ./public directory if it exists&#xA;&#xA;Endpoints:&#xA;http://localhost:3000/blogs",0
+I can't see anything. Please not all settings.py.... just the INSTALLED_APPS list,0
+related: https://stackoverflow.com/q/39875909,0
+Give people some time,0
+"This solution seems to work fine, thank you! Only slight problem is that once I run it I need to respond with an -a to the question of `e/o/a` that I mentioned in my comment above for every file it goes through, but I had that problem before too and i'm sure if I start looking around in the `ncks` documentation I will find a solution. But again, thank you",0
+@Spencer `std::is_same` still works because it simply gets instantiated and then the compiler checks the `::value` member in the trait. It's not the same for the copy constructor though because the compiler must know that `foo(this_type const&amp;) = default;` is defaulting the copy constructor without instantiating this member. Class template members in are only instantiated when they are used.,0
+"Frankly, I would just use `string(//span[@class='_39I1Z _2ITlL _3D3LC _3NGVr embTL _1zNVc'])`.",0
+"You can tell a JTable to keep repainting a cell with an animated GIF in it, and you will see the animation proceed. This is not so with an indeterminate progress bar. No matter how many times you redraw the cell, the animation is frozen in time.  The bar itself stops animating, and I have failed to find a work-around besides &quot;make your own ProgressBarUI&quot;.",0
+"Can you share the server start log where it writes the commit id, so that we can check if you are on the right commit version?",0
+"Went ahead and added that too, still nada. I did find out that the only color that works with the bg tag is red for some reason, so something is just not working with Tailwind. bg-red-500 changes the background to red, but any other color just defaults to white.",0
+"Thank you very much, it work",0
+"With `u`, for example: `if (playerRow-1 &gt; 0 &amp;&amp; playerRow-1 &lt;= board_width) {` Why do you need that 2nd condition?",0
+Is there a way to verify if the format is properly taken into account ? I still get &quot;invalid disk type 22&quot; when trying to boot from the vmdk file on ESXi 6.7. &#xA;I'd like to avoid using vmkfstools as it's unavailable from linux and requires a lot of local space on the ESXi server doing the conversion.,0
+If the code works from a standard Java application with only the required jars in the classpath that suggests there's something on your classpath in SoapUI that's causing a problem.,0
+I actually created a sample app for this and it works. Are you having the same error about &quot;Object reference...&quot;?,0
+Aren't you missing an await at either `return fetch(...)` or `return response.json();`?,0
+Or instead of getting site key from iframe src you can get the page source and save it in html file then with the help of bs4 read the html file and then using 'g-recaptcha' this class to get its attribute,0
+"@Shivansh, as you've already found out WA keeps updating the page to reflect the internal state.&#xA;Take a look at this related question: https://stackoverflow.com/questions/77609850/chrome-extension-for-sending-whatsapp-messages-with-name",0
+If it's a system procedure then I **strongly** suggest you leave it as is; changing them could *easily* cause significant problems on your instance.,0
+"Why not use a Chromedriver version that matches the Chrome version, or a Chrome version that matches the driver's version?",0
+"You are sampling from two values `c(0,1)` but are supplying three probabilities `c(0.2, 0.3, 0.4)`. I'm not sure exactly what behavior you are expecting here. Are you trying to specify the probability for just the 0 value? R rarely evaluates expressions row-by-row by default since that's inefficient. It will try to operate on the columns of the data all at once.",0
+Does this answer your question? [401 Bad credentials when try to hook code pipeline with GitHub](https://stackoverflow.com/questions/71905312/401-bad-credentials-when-try-to-hook-code-pipeline-with-github),0
+@AdamVincent And how come it runs locally without problems?!!,0
+The first code is to get instructional text that dissapear and reappear when something is entered or erased. The second code is to get rows to showed in other sheets depending of something being entered in a row in this sheet and an option &quot;success&quot; to be selected in a drop-down list. The third one is the same but with other rows in another sheet.,0
+@TeDi you're welcome.,0
+"Hey there @George Vilau, thank you for your response and assistance. As mentioned in my original post, I’ve already cited @CrossOrigin(origins=&quot;*&quot;). Would you happen to have any other suggestions? I’ve already tried programmatically setting the content type to application/json, and they’ve all failed. I think the browser is the culprit.",0
+"INSTALLED_APPS =  [&#xA;    'django.contrib.admin',&#xA;    'django.contrib.auth',&#xA;    'django.contrib.contenttypes',&#xA;    'django.contrib.sessions',&#xA;    'django.contrib.messages',&#xA;    'django.contrib.staticfiles',&#xA;]",0
+"no, just this simple configuration worked fine until migration happened",0
+"Please see [ask], then revise your title to ask a clear, specific question. Don't add tags.",0
+"@devster it's the same API, but images can be uploaded with different media types, rate limits can affect requests, multi-platform images and build attestations could cause issues. The shell script just takes a very simple happy path and assumes none of those will be an issue. The regctl command, along with tools like crane or skopeo, all handle this much better, with support for more registries and media types, and even let you pick which platform for a multi-platform image.",0
+Dude you saved my life ! Crazy this is not included in Xcode..,0
+You're correct I had a typo error in the arn it worked Thanks!,0
+My client is working on NFI and they said Swift code is not supported at all. I don't know the reason. So I choose to provide them in both way.,0
+What I find puzzling is the warning &quot;Runtime environment or build system does not support multi-release JARs.&quot; (which is in fact the root cause of your problem) but your settings show that multi-release is true.,0
+"if you got objects that come and go, why not just have the navmesh adjustements on them so they carve the holes as they appear/move/or go ...",0
+"Rui just update the question, and I followed your recommendation using .net8 project",0
+"@NathanOliver  Yet the compiler has all of that information when building the full specialization of `foo&lt;int, void&gt;`.  Is it necessary for the `default` to be processed (and rejected) earlier?",0
+"@ValerioBozz I rejected the suggested edit and also commented on why I think it should not be done 22 hours ago, but apparently others approved it 6 hours ago. It's not easy to see what consequences a suggested edit can have from the the _review suggested edits queue_ tool that we have and I think the approval was a mistake that will make this Q&amp;A _less_ useful in the future than it's proven to be over the last 3 years.",0
+"But this is worse, right? Since you get lower framebuffer resolution.",0
+Constrained identity function. Best explained via this article: https://kentcdodds.com/blog/how-to-write-a-constrained-identity-function-in-typescript,0
+"Cookies and HTTP headers are not the same thing, why are you trying to interchange them?",0
+"Great work. For the record, the timings are much closer using R 4.4.0 (devel) and integer is often very slightly faster in all cases.",0
+Something like ` awk '$0~/\[ something_&amp;_C-alpha \]*/{flg=1}flg' yourfile.txt` would do the trick. Essentially just setting a flag to true when a line that matches your search string is found.,0
+"The mistake was a typo, you used &quot;contentDiscription&quot;, should've used &quot;contentDescription&quot; (if you scroll down you will see my answer from yesterday)",0
+"Any way around, Isabelle/C seems to be more a research tool than a production tool.  You might find somebody around here who knows enough about it to explain in detail how to apply it successfully to your code, but you would be much more likely to find help in the research group from which Isabelle and Isabelle/C emerged.",0
+"@DeepakPanchal have you tried to upgrade in smaller steps (to 3.0.13, 3.1.7)? That may help to identify your problems more easily. For each step also look for deprecated config warnings on startup.",0
+Just do `SomeClass.str`?,0
+@user3808252 That was not clear. See my updated answer.,0
+"First of all, this question is not programming related and does not belong to StackOverflow. I recommend to ask this at [su]. But even there, I guess you will get more help if you describe, how you have configured your terminal (i.e. how you start the command- or powershell), and what VSC version you are using.",0
+"So, the full answer depends on when the `= default` is processed.",0
+"`sed -e '/\[ something_&amp;_C-alpha \]/p' -e '1,/\[ something_&amp;_C-alpha \]/d'` works for me, but I think it's dependent on the version of `sed`.",0
+"I can't believe it took so long to find this answer. You saved me so much time, thank you. I wonder if this has been reported somewhere as a known bug. The runtime compilation should take into account GlobalUsings.cs. It doesn't warn you that these will be ignored and must be added to that _ViewImports file. Not a dev-friendly experience!",0
+"Sometimes, log output gets updated to the latest value within miliseconds when it's not a primitive value. try logging `product_name`  by wrapping it in `JSON.stringify()`",0
+"Would be helpful to include the actual example of usage as it is missing from official documentation: &#xA;`client.insert_dataframe('INSERT INTO your_table VALUES', df)`",0
+Try just adding `#import &quot;FingerprintSDKWrapper.h&quot;`,0
+"There's a typo: you wrote &quot;imageFromURL&quot; and &quot;imageFromServerURL&quot;, should be same func name.",0
+*However when I use java -jar myApp.java I see...* That doesn't make sense. Why not something more like `java -jar myApp.jar`?,0
+"The question was about &quot;take a stream rather than a string&quot;, this approach at least doubles the memory consumption (because of the string allocation) compared to direct stream reading. Btw streamReader may be disposed before calling DeserializeObject.",0
+"Hi @hardillb I am having a Azure event grid MQTT, on web socket it supports authentication using client certificates and client key. I used the [this](https://gist.github.com/jimrok/d25cb45b840f5a4ad700) code to create socket factory but I am getting ` javax.net.ssl.SSLException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty` exception while connecting to the broker. While I check with other MQTT client like MQTTBox and MQTTX then connection is successful . How can show some light on what wrong I am doing here?",0
+This makes it unnecessarily inconvenient. As Heretic Monkey mentioned this can be achieved using css or as Green Dev answered using a `styledComponent`.,0
+probably because of cookies and the fact that the website can check if you're a Python agent/bot or a real person,0
+you did not include your app name in the INSTALLED_APPS list. I will edit my answer to show you how to do that. You said your app name is `Diabetes_Prediction` and project name is `Diabetes_Prediction`? Please make sure you're not confusing both.,43
+"Yes, I'm connected to a database. OfficerLangVM is not a table in the database so that might be my problem.",0
+could you take a look to this? the original question - answer it is a bit confusing https://stackoverflow.com/questions/77787835/expiring-mac-development-certificate-will-shut-down-my-delivered-app-distributed,0
+"Oh, sorry. This is mistake. Corrected.",0
+"In the first row, I want to draw a 0 with probability 0.2 (hence a 1 with probability 0.8), in the second row I want to draw a 0 with probability 0.3 (hence a 1 with probability 0.7)...",0
+"afaik, you need to make udf, `spark.udf.register('nanmean', np.nanmean)`  ref: https://stackoverflow.com/a/69732269/2956135",0
+Did you try to use `v-slot:header-item.1` as shown in doc: https://vuetifyjs.com/en/api/v-stepper/#slots ?,0
+1. You should not suppress this error since it is important. 2. Take a look at [this](https://stackoverflow.com/questions/77787577/how-get-jwt-token-from-local-storage-in-server-side-component/77787818#77787818) answer I wrote that covers the same topic,0
+"To answer my own question for future users, yes you can restore from a remote branch provided you fetch it first &quot;git fetch --depth=1 origin master&quot;",0
+Show me the lines in your settings.py enclosed in &quot;&quot;&quot; &quot;&quot;&quot;. It should be at the top of your settings.py,0
+"So when you say &quot;when the `data` argument is a CIF that returns a function&quot;, where is that happening? When is the `data` argument a CIF? I see you passing in functions of the form `() =&gt; Data` which isn't a CIF.",0
+Cuuld you check this [SO answer](https://stackoverflow.com/questions/67449798/angular-mat-table-inline-filter-with-drop-down) and this [stackblitz](https://stackblitz.com/edit/angular-mucxn8?file=src%2Fapp%2Fapp.component.ts),0
+"Okay I'm gone for 20min and I return to this haha. The application is shipped to &gt;80k people that run it on Mac, Windows, Linux and everything in between. The drives range from m.2 SSD's to network mounted HDD's (I have an SMB HDD share). So hopefully there is a cross-FS solution, or a solution that works for the most used filesystems. The application is distributed via a Linux docker container, so at least it should support that (but there are people that don't use docker but have a manual install instead; that's why it could be all OS'es).",0
+"why not just try to delete it, and see what the os says? rmdir will fail instantly if the directory is not empty. `os.listdir` is a very unoptimal way to check if a dir is empty anyway. Better use `os.scandir` which iterates",0
+"Perhaps I'm missing something. The function takes (according to the question) either a value that could be None or boolean OR a dictionary. So, why not define it as taking just one argument, use isinstance(arg, dict) and go from there? Also, bool(int(onoff)) isn't very helpful if onoff==&quot;0&quot;",0
+It works fine. Thanks!,0
+"A simpiler test case on the cmd line doesn't have a problem deleting `#` prefixed string, i.e. `echo &quot;#xyz&quot; | sed 's/#xyz/abc/'` produces `abc`. I have no experience w docker, but I guess I would try escaping the `#` char (possibly more than once) OR recompose your `$FIND` string so it is enclosed with single quotes, i.e. `FIND='# '&quot;'&quot;'App\\Message\\YourMessage'&quot;'&quot;':'` (untested). Good luck.",0
+@mozway thank you for your comment. Added example,0
+Often times it's helpful to turn off application level features like screen updating and calcuations (and turning them back on at the end of the VBA). See [this answer](https://stackoverflow.com/a/47092175/2221001) which covers the things that folks normally toggle off and then back on again and consider adding to the top and bottom of your very long code.,0
+Ok while I look into this can you see if this could be a good solution for you? Save your cred in credential manager and then you can use the credentials in powershell https://www.powershellgallery.com/packages/CredentialManager/2.0,0
+"mujoco will weld the position of `mocap_test` to position of `finger1_distal`. Make sure that (0,0) of `finger1_distal` is at the same position as the `mocap_test` and that (0,0) of `finger1_distal` is at the tip. Otherwise, create a body where the `finger1_tip` is located and weld to that.",42
+"I'm not 100% sure if the standard covers this issue one way or the other, and I don't think the citations I've given obviously prove it one way or the other. I suspect that it's IFNDR and it works for MSVC and Clang due to memoization.",0
+Does this answer your question? [What is a debugger and how can it help me diagnose problems?](https://stackoverflow.com/questions/25385173/what-is-a-debugger-and-how-can-it-help-me-diagnose-problems),0
+I just also tried log4j v 2.22.0 and 3.0 beta. No difference.&#xA;@k314159 Indeed I also noticed this fact. And all solutions I found indicated this is only activity I should do: just add multi-release. Maybe this is ignored from some version of java?,0
+"Given you may not be able to assume all dependencies are built by maven, a quick-and-dirty approach would be to simply [add the jarfile as a dependency](https://stackoverflow.com/questions/4955635/how-to-add-local-jar-files-to-a-maven-project). Alternatively, you could `mvn install` the jarfiles with generated pom files per jar, allowing you to then keep the dependencies in one place across multiple projects. These are both stopgaps compared to actually going through and getting thr proper versions and maven strings per jar. For ones built with maven, the answer below will save time.",0
+"You can also add multiple items in one line: `{**/*.svg,**/*.npm,**/*.csv}`",0
+If you don't think this is the reason then post a reproducible example.,0
+#import &quot;FingerprintSDKWrapper.h&quot; same issue,0
+"That's not how the sample command works. If you do `sample(c(0,1),1, prob = c(0.2, 0.3))` It will normalize the probabilities to sum to 1. So it will draw values from a distribution where 0 has probability .4 and 1 has probability .6.  Same as `sample(c(0,1),1, prob = c(2, 3))`. And then since you only return 1 value, it will get recycled to the full length of the column.",100
+"Django settings for Diabetes_Prediction project.&#xA;&#xA;Generated by 'django-admin startproject' using Django 5.0.1.&#xA;&#xA;For more information on this file, see&#xA;https://docs.djangoproject.com/en/5.0/topics/settings/&#xA;&#xA;For the full list of settings and their values, see&#xA;https://docs.djangoproject.com/en/5.0/ref/settings/",65
+You can look at Logcat to see why it's crashing...,0
+"Thank you! It's good to know that something like `fill = interaction(Status, Species)` could simply do the trick.",0
+this one is the best solution for me after migrate from bash to zsh,0
+"It means the function returns the argument itself (which is a function by itself), just for the sake of constraining the type",0
+@juniormehmet2 No problem I am happy to help. Have a great coding session and day :),0
+"You may also want to consider unit tests, static analysis, and building with sanitizers enabled.  And, if you're not already, crank up your compiler's warnings as high as you can.",0
+service &quot;mailpit&quot; refers to undefined network sail: invalid compose project&#xA;It is giving me this error. Because I am not using sail . Is there any other way to do that?,0
+"@AdriánRodriguez, if you have tried everything in this thread and have explored other solutions on the site, I recommend you open a new question and describe your specific issue.",0
+"For the fields that you bind with the Html Tag helper (EditorFor, DropDownListFor), none of the fields are have validation attributes specified. These are the fields in the OrderItemViewModel class.",0
+"yeah thx, there was also another error : i created an input and for an input to have a value it must be assigned directly on the site, so i created a label for my checkbox instead.",0
+This answer only solves the presentation of the picked address.&#xA;@ezhupa99's answer below also takes care of correct parsing of textual input,0
+You may need to tune some properties. See [this](https://books.japila.pl/delta-lake-internals/commands/optimize/#bin-packing),0
+"Sorry, I don't see how that answers my question. Can you spell it out to me? Exactly where are you passing a CIF as an *argument* to another function?",34
+Yeah but your certificate is `Development` right? In-house distribution is for Enterprise account.,0
+"To my understanding, when using the `link` option with `apply_async`, the chain is established at the time I call taskA.apply_async and taskB will always run. Am i right? In my case I only know if I want to run taskB at a later time.",0
+"Considering virtually anything could be in column, I would use try_convert()/try_cast().  They would return NULL if the conversion fails rather than throwing an error.",0
+Ok. Wanted to confirm your project name. Please also confirm that your app name is also `Diabetes_Prediction`.  Your app is the folder containing your `views.py`.,0
+"This is the only message that i can capture : Error Message: Operation returned an invalid status 'Bad Request', unfortunately Microsoft does not provide a good debug mode, cause when I tried to use debug i got misc information and no actual valuable information about the error.",0
+"https://jsfiddle.net/ct0omerw/ works fine, the problem from the framework, if you are using bootstrap go with flex.",0
+"Think about it. With a C array, `&amp;arr[size]` is equivalent to `&amp;(*(arr+size))`, thus the one-past-the-end pointer *may* be dereferenced, which is not allowed. The same is true for `std::array`, as`arr[size]` returns a reference to the one-past-the-end element, which is not allowed. Some may argue that `&amp;(*(arr+size))` may optimize to just `arr+size` with no dereference. That's possible, but not guaranteed. It depends on the compiler implementation.",83
+This is not an answer.  It should probably be deleted.,0
+Could you provide me a link to the documentation for this expression language? But I would still need to implement an event listener for every Scheduled Job. Isn't there a simpler way that requires less duplicate code?,0
+"Readers may be able to help you fix your best attempt to solve your problem, based on reading of the BC documentation (or elsewhere). BUT questions ***Seeking recommendations for books, tools, software libraries, and more*** are **off-topic**. Read here about [mcve] OR delete here and repost to [su] for general cmd-line help. Good luck.",0
+"Instead of describing what you're doing, please edit your question and add that code that doesn't work the way you expect.",0
+I'm experiencing the same. Any updates on this?,0
+"These snippets are not runnable, so maybe best just to use regular code markdown rather than a snippet.",0
+"Hi, did you manage to solve this issue? I'm having the same issue right now and I'm unsure what caused it?",0
+I'm going to stop talking now :),0
+"What do you want to &quot;fix&quot;? Your code converges very quickly (after 17 iterations) to the value that is most closely matching actual value considering floating point precision limitations. (Although you should start from e=1 I think, not 0).",0
+many thanks! 2 additional questions please: 1) why ViewModel inherits from ObservableObject but not from INotifyPropertyChanged? Is INotifyPropertyChanged already legacy technique? 2) Is there XAML solution like ListView or DataGrid has (DataContext / ItemSource binding)?,0
+Add Validation attributes to the OrderItemViewModel class as well. Else the validation will always by-pass,0
+At building @Mathieu. I have added the output.,0
+"Printing the machine code for `jmp     rax` as `E0FF` is a poor choice.  x86 machine code is a byte stream so the `FF` byte should be shown first and the `E0` byte second, like in Intel's manuals (https://www.felixcloutier.com/x86/jmp - this is `FF /4  jmp r/m64` with the mod and r/m fields of ModRM filled in around the `4` in the middle 3 bits, `/r` which for this opcode acts as 3 extra opcode bits.)  When you know 2 or 4 bytes go together as a single little-endian immediate, you could print its value, but disassemblers like `objdump -d` only do that in the asm, not the machine code hexdump.",0
+"@Jean-FrançoisFabre I would still have the same problem. It will try to delete the folder but error out because there is content, even though there isn't anymore. Currently I list the contents to check. Forcing rmdir will also just check if it has content. The problem would persist. On top, making the algorithm more optimal with scandir would be bad in this case. The algorithm is _too_ fast, so we for sure shouldn't go make it even faster.",0
+"Anyway the issues here seem to be: you can't put a function in a `const` context (it doesn't have an effect, `(()=&gt;{}) as const` doesn't work either); TS tends to widen function return types (see [ms/TS#241](https://github.com/microsoft/TypeScript/issues/241)); your `Data&lt;T&gt;` definition tries to block inference via an inferred `U` but that also blocks the `const` context. If I address all of those I get [this code](https://tsplay.dev/NB19zw). Does that meet your needs? If so I'll write up an answer explaining; if not, what am I missing?",0
+the question is not clear to me. What is the use case you are looking for and what is the input/output you are looking for?   Can you store the table as Parquet/JSON and read it with the schema you want?,0
+"Since the OP says that this is an old project I assume it uses .NET Framework &lt;= 4.8. If someone is using .NET &gt;= 6.0, DPI awareness is handled differently there. See: [What's new for .NET 6 (Windows Forms .NET)](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net60).",0
+You can use `raw` strings like this: `f=open(r&quot;C:\Users\goce\Documents\vezba 1\goce.txt&quot;)` to defeat unicode encodings.,0
+This is a headache now. This formula is working but this searches only one item. But there are so many items. And there is only one comma (-).,0
+"@PeterCordes I've tried but it overflowed in int16. And values may be less than 0 during computation so uint16 is not suitable, neither. I almost read all the neon instructions but haven't found one to shuffle 4 uint8_t elements to 4 uint32_t elements in single step. Unless you read/write elements use `_lane_` instructions but it will use loop and be slower.",0
+"As it’s currently written, your answer is unclear. Please [edit] to add additional details that will help others understand how this addresses the question asked. You can find more information on how to write good answers [in the help center](/help/how-to-answer).",100
+"I am linked to enterprise account, I will update both questions with this info. does it change everything?",0
+"Looking at the codesandbox you've provided, it seems like the reference used by the ´useZxing()´ hook is unmounted. However, the hook expects a stable reference. The component using the hook should be unmounted along with its reference as well. Therefore, try using the hook inside with an inner component, which is unmounted when toggling input mode.",0
+"I implemented the functions in _EmptyProject_ (I used this one [EmptyProject11](https://github.com/walbourn/directx-sdk-samples/blob/main/EmptyProject11/EmptyProject11.cpp) ) but no luck: the DXUT device context still does not work with the FFT function, giving `E_OUTOFMEMORY`.",0
+@jonasbb Are you sure? It serializes identically ...,0
+thanks i will try now,0
+"Can you share your entire blade file? I've tried to replicate this, but I get all values when I dd the request, not just the first, as you describe. Please also share your controller method, so we can rule out any issues there.",0
+"Edit your question to show your code that adds the tap gesture recognizer, and provide details needed to understand how that code is used. Also tell us what you mean by &quot;it is not working well.&quot; That suggests it works partially.",0
+That is what the cookbook example does.,0
+In github actions you can setup env variables: https://github.com/cypress-io/github-action?tab=readme-ov-file#env&#xA;&#xA;Just setup your own variables (i.e. myOwnPort) and then use this env variable for the parts where you need different port,0
+What does your SQL look like? By that i mean the SQL used to create the original Tables,0
+Its named &quot;My app&quot; and it contains another folder named &quot;Migrations&quot;,0
+"Some of the factors for not using obj-files:&#xA;- Not wanting to deal with obj file format, as you assessed&#xA;- Little point in going for a full binary executable format, as externally most functions are called via reflection/script-bindings&#xA;- No specific executable is even generated for the packaged application (just a generic exe+dlls), so linking this way would mean I'd have to set that up first.&#xA;- Certain properties that make me unsure if obj would even work (64-bit addresses of dynamic objects are placed in the code directly; etc...)",0
+"I don't know what your classname and testcasename looks like, but the idea is pretty much straightforward. You need to remove `TEST_F` and parentheses from the resulted strings. Then strip strings and then split them by comma. Finally you can strip the resulted strings after splitting as well.",0
+"@starball if you verify what I meant exactly, you will see that CORS module wasn’t installed for IIS Express. 500.19 is clearly the proof.",0
+"If your string is HTML, then you'll need an HTML parser.  You can't `split` and you can't use `regex` (as HTML is too complicated).",0
+"You have to use a heap-allocated event when posting it between threads. Please grep for `CallAfter()` in wx own sources, you will find several examples of using it.",0
+"All of your data are strings, have you tried to convert to a number-like time format? Also, it looks as if your `SRB.konz` column should be `numeric`.",0
+It copies the array every time.  It's a common practice though.  I wonder if it was ever optimized in powershell 7.,0
+"@wenliangzeng-coder :  Agreed, `%JAVA_OPTS%` is a typical env-var in .bat files. the website https://batsh.org may be able to help you convert to bash. Good luck.",0
+RenderItem is a functional component and is able to contain hooks,0
+"@jonasbb Either way, I added it as suggested.",0
+This post might help: [swiftUI picker( the padding of content in Picker does not work)](https://stackoverflow.com/q/77772312/20386264),0
+Thank you. It would be nice to have at least the option to enable this out of the box.,0
+How are you typing your credentials? I just tired in the format `domain\username` and that worked for me.,0
+"Which one is blocking you. `20231220T090000` to `Date` or `Date` to `20 Dec 2023, 9 AM`? Did you try looking at http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns ?",0
+"Side note: the code comment `// Change to 'false' if not using a trusted certificate` is nonsense. If the certificate is self-signed that doesn't make it &quot;trusted&quot;. It is simply insecure to use `trustServerCertificate` as you are effectively ignoring the certificate completely, and anyone could just MITM your connection without you knowing. The comment should have read `// Change to 'false' if you want to validate the certificate and get a properly secure connection`",0
+"@Spencer Your specialization is not `foo&lt;int, void&gt;`, it is `struct foo &lt;T, std::enable_if_t&lt;std::is_arithmetic_v&lt;T&gt;&gt;&gt;`",0
+"yes, but neither lubridate nor anytime identify the time once I convert the time column to numeric :(",0
+"thanks! Thats another issue of my code. But even if that is solved, one still has to do some sapply loop...",0
+@freedomn-m Is this not possible to do then? I'm trying to animate each letter on a website for each word. But I can't let it affect HTML inside the string otherwise it will break specific styles for different words inside the string.,0
+hello are you there ?,0
+"Thank you for your reply. I have put my finding as answer below this: https://stackoverflow.com/a/77787913/2639185.  If you have better approach, please mention that as well. Thank you again!!!",0
+3.6.3 is no longer available at this url the minimum available is 3.8.8 . 3.6.3. is on maven repo  though https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.6.3/apache-maven-3.6.3-bin.tar.gz,0
+"The point is to use a value that would *not* be given explicitly. If `None` has no use other than to signal the lack of an explicit argument, what useful distinction do you draw between `simple_fun()` and `simple_fun(None)`? If `None` *does* have some other use, you pick a different sentinel. (Usually by creating a custom instance of `object` that has no other assigned use; see https://peps.python.org/pep-0661/ as well.)",0
+"@Cas assuming you know the directory should be deletable, you could just handle failure by retrying in a short loop (maybe with some backoff), rather than pessimistically wait, probably retry a handful of times then give up with an error (as that might mean FS activity actually added content back). The more complicated version is to use into the (OS specific, possibly missing) FS events systems, and wait until you receive the deletion event, but that would be a lot more complicated to implement.",0
+"adding thie 'runascurrentuser' works for me, thanks.",0
+"Editing plugin files is never a good ideas, as this &quot;fix&quot; would get removed on updating the plugin. Also, how is that array key `name` related to the array key `margin-widescreen` from the error message?",0
+Key line is `mBuilder.setOnlyAlertOnce(true);` else you will get a lot of notifications.,0
+"This is where the problem is coming from. You probably didn't read the last lines under my answer. Is it Myapp, My_app, My-app, or My app? Please look the name and tell me exactly the way it is. I doubt there'd be a space in-between. It's either a hyphen or an underscore or none",0
+"so you want to have a `Map&lt;String, Set&lt;String&gt;&gt; params` there?",0
+"Not really sure what your trying to do here, internally all dates in Javascript are UTC.  The part that's locale is how that date is displayed / entered.  IOW: You shouldn't need to be converting anything.",0
+"You can parse it then extract the text nodes and then apply split/wrap on the words on those.   Will depend on what level you want to go down to - eg if your `span` has another `span` inside, or there's a `table` etc",0
+"If you haven't written any code about this on your own, you should report this as a bug to the maintainers of the plugin",0
+Do you get any messages in the javascript console on the iPad?,0
+"This was my first hit in Google, but I thought no-one is going to have exactly the same question as me. I am using this because I need clear out a persistent object (GTM dataLayer) and this question and solution is what I need to keep the initialisation object typesafe (and remember to set any new properties that need to be cleared)",0
+"Unrelated, but your keyboard seems to print the wrong `.` at the end of sentences. I'm not even sure what that character is. Just fyi.",0
+"Or use forward slashes.  Additionally, perhaps do a bit of research on why a [context manager](https://realpython.com/python-with-statement/#working-with-files) should be used to work with files.",0
+"Please see prev comment: so you intend to just *tell* the compiler that the output type is `ISomeInterface[]` even if the input has arbitrary unrelated keys?  You can do so then like [this](https://tsplay.dev/mAL9vN), but that has obvious problems.  Do you want the compiler to actually understand what the key mapping is doing?",0
+"Which Debian version (such as : stable,testing,sid) do you use in your WSL? If this problem is not becasue we did some wrong operation, maybe we should report this as a bug on the Bug Tracking System (BTS)  of debian.",0
+"What's a &quot;MR branch&quot;? You can specify _&quot;pushes to X branch and updates to pull requests targetting X branch&quot;_, which wouldn't trigger duplicates (as I do e.g. [here](https://github.com/textbook/build-info/blob/48c998f1159537d1ff3a91ea3aa9b66880c4ead2/.github/workflows/push.yml#L3-L8)) but you've explicitly made both run on all branches (which is the default anyway).",0
+"And people comment that SO is becoming toxic... Thanks for proving them wrong, all.",0
+"Maybe all of this would work with obj-files being linked in some sort of specific executable. But it doesn't seem naturally the right solution for my workflow (where script-data is embedded in the games/applications data-format, which used to be bytecode and is now native code).",0
+"Do you have any logs from an invocation? When a Lambda doesn't behave as expected, that should be the first place you look.",0
+https://uk.mathworks.com/help/matlab/ref/fontname.html ?,0
+"The ordered tests are using&#xA;[SetUp]&#xA;public void Setup()&#xA;{&#xA;    Assume.That(skipTests, Is.False);&#xA;}",0
+"@Juliean: The easy way around that particular point is to compile to assembly language, with `section .data` and `section .text` directives, and let it generate object files.  This is one major reason that many compilers compile to asm instead of directly to machine code.  (e.g. GCC and many less-popular compilers with less development time sunk into them than clang/LLVM or MSVC).  Then you have a build dependency on an assembler like NASM or GNU Binutils, though.",0
+don't worry. many websites still use it as it does not require additional requirements or require HTTPS secured.,0
+"it is myapp ,,,, with no spaces",0
+"thanks! But the embedded password would still have to be manually changed every N days, correct? The benefit of using the embedded password is that it could potentially update multiple dashboards at once, if multiple dashboards use the embedded creds, right?",0
+"@M.Deinum i removed the configure method to avoid confusion as it wasn't really doing anything. Secondly, i have migrated the external server too. Anything else which i might have missed?",0
+"I don't know what your dev environment is so unclear there.  The difference is not called out on that page but on the one I linked to. Specifically, vCore supports this, &quot;Your workload has more long-running queries, complex aggregation pipelines, distributed transactions, joins, etc.&quot;  Mongo API is built on top of the Cosmos NoSQL API. This architecture is designed for extremely high throughput. Trade-off is no distributed transactions or operations of any kind.  Hope that helps.",0
+"@Yrll oh wow, such a weird phenomenon, I still cant click the map to show the marker, I have no clue what I did wrong at this point.",0
+To return an `await` is like putting a **STOP** sign at the end of the road that leads nowhere. it makes no sense. The road is the scope where the `await` resides and stop signs are to be placed in strategic places to control the code-flow within a specific scope. There is no code-flow past the `return` statement. it's all done and finished.,0
+"UPDATED: i've tried in this way but it removes as well the separator name from the ouput: sed -e '/ *_&amp;_C-alpha \]~/p' -e '1,/ *_&amp;_C-alpha \]/d' shared.ndx &gt; test.ndx",0
+I meant on the sql side,0
+What have you tried to resolve the problem? Where are you stuck? Is this a JS problem or a PHP problem?,0
+cannot find `?.PropertyName` :(,0
+"@NedStarkOfWinterfell I kept your question in mind but I don't see a neat solution. For example, with tags corresponding to all first letters but it would probably be over-engineering and be problematic when updating the field.",0
+Hint: [Authentication and authorization in ASP.NET Core SignalR](https://learn.microsoft.com/en-us/aspnet/core/signalr/authn-and-authz?view=aspnetcore-8.0),0
+"Please share more details about how to resolve the problem, like any code that should be neccessary",0
+"You can't use `dlmopen` and then expect the symbols to become &quot;available&quot; to code from the default link space. You will have to explicitly import the functions from the *new* namespace with `dlsym`. Also, `dlmopen` will also have loaded redundant copies of every dependency of that library, you better be aware of that.",0
+Are you missing RequestMaping on controller?,0
+"Re, &quot;...but the elements in the containers are not const.&quot; The &quot;elements&quot; in your container are not `CustomCollection` objects. The elements are _pointers_ to `CustomCollection` objects,\* and those pointers never change. \[\*Well, actually, just _one_ object in your example, but of course it could have been any number of them.]",0
+"Welcome to Stack Overflow. You really want to be very specific with your question. If the only issue you're having is accessing a MySQL database from Windows then I would recommend using HeidiSQL in Windows and configuring the ports correctly. It works with most major RDMS. You have the host on 0.0.0.0, so is your Docker running on your Windows machine? What's the relevance of your Mac being from 2015? SequelPro stills works, doesn't it?",0
+"thanks, this solves everything at once. My question was mixing two issues: A mistake in sample() and why do we need to sapply sample (but not other functions). Why does this not work:&#xA;&#xA;playdata[, otherprob := 1 - probabilities]&#xA;&#xA;playdata[, sampled_dummy := sample(0:1, size = 1, prob = c(probabilities, 1-otherprob))]",0
+"Thanks. I'm using Umbraco 10.7.0. to build this. Are you saying the problem is with Umbraco? Is there a workaround you could suggest, i.e. a way I could adjust the code to get around the issue with the framework.",0
+Please share the `api-partner` guard and the provider.,0
+perfect! Thank you so much! also will take your upgrade suggestion into account,0
+"@Tobonaut I never did! But I haven’t tried since then either, so perhaps something has changed since then!",0
+It is not a system procedure; it is a user-created stored procedure.,0
+Since the error has changed due to changes in your operating environment I strongly recommend you update your question to reflect the current status. Otherwise you're going to get answers to your old question rather than your new one.,0
+"@freedomn-m Thanks, can you point in the right direction on how I can accomplish this? E.g. code examples, stackoverflow posts etc?",0
+for me i had to run ```brew upgrade``` to make above ```brew install libpq``` take effect to fix the issues.  maybe because i had the libpg installed before.,0
+@Egor Yes. I am catching an Exception.,0
+"Every detail matters in programming. Please be exact with your names, uppercase, lowercase, spaces etc. Be precise. I will edit my answer shortly",0
+"@Juliean: Object files can be linked into DLLs, same way a DLL is built from multiple compiler-generated `.obj` files.  Anyway, you have a working system now, and memory-mapping some simple code + read-only-data files is totally fine, especially if you wanted to indirect through a pointer for calls into them anyway, like rolling your own `dlopen`.  (If you did link the hypothetical `.obj` files directly into your DLL, you could have declared prototypes for their functions and directly called them from other functions in the DLL, with the compiler using `call rel32` instructions.)",0
+It still says that my process is too long. I've put before Application.Calculation = &#xA;    xlCalculationManual&#xA;    Application.ScreenUpdating = False&#xA;    Application.DisplayStatusBar = False&#xA;    Application.EnableEvents = False and after Application.Calculation = xlCalculationAutomatic&#xA;Application.ScreenUpdating = True&#xA;Application.DisplayStatusBar = True&#xA;Application.EnableEvents = True,0
+"*&quot;which would increase the time of execution&quot;* why do you think it would? Sybase, under the hood, is going to see `open_bal` as the expression `(case when open_bal = 0 then 0 else 1 end)` as well. If, however, you don't want to repeat the expression use a CTE or derived table (using a `SELECT` or `VALUES` table expression) to define the expression and then you can reference it by its alias.",0
+where is the file storage inside docker/kubernetes/pod or external hdd. If this is inside pod path may not exist.,0
+"@jcalz thanks! I've edited the code to a minimal reproducible example. &quot;Preserving the type&quot; wasn't the right way to phrase what I meant, my bad. I just want the function to have a generic type that it then returns like so `deepConvertToCamelCase&lt;T&gt;(item: T | T[]): T | T[]`. It would've worked expect in this case since `item` could be an array, the way I implemented it doesn't work",0
+"@Skip I think in earlier Versions the methods were declared as enum, and have only just changed to be static constructors. It makes more sense this way too, as it provides the flexibility we need in edgecases like these when some APIs dont follow standards",0
+"Technically speaking, this answer does address the question as it currently stands.",0
+"It's likely that the non-thread-safe shared library isn't linking with all the libraries it needs to function (such as libc). When you load it into a new LM, the new LM also needs to load a fresh copy of, for example, libc to do the correct thing.",0
+Oh i should see one more time thx,0
+@TamHuynh I've tried it with devices that have Google Play and Google APIs.,0
+"Please add some explanation to your answer such that others can learn from it. Also, please never share code embedded in an image",0
+"Sorry if the question was a bit vague - I would totally agree that the approximation converges extremely quickly. &#xA;&#xA;My understanding of this problem is that there should be some displayable difference in each 10,000th iteration, rather than just displaying the same result 10 times.&#xA;&#xA;The difference, of course, is going to be waaaay past the decimal point, but even formatting my results using 50 decimal figures for a floating-point number just returned the same value after 17 iterations.",0
+"I added comments to make the `r` extremely visible since you had it bolded and you can't really bold in a code block. If you think the comments are unnecessary feel free to remove them, just wanted to make it clear since you were trying to with the bold I assume",0
+"Welcome to Stack Overflow! I highly recommend checking out the [How to Ask](https://stackoverflow.com/help/how-to-ask) documentation, especially the part about including a [Minimal, Complete, and Verifiable example](https://stackoverflow.com/help/minimal-reproducible-example). Because with the current state of the question, no one will be able to help you.",90
+"I have been trying all the suggestions you mentioned. Also other options. Test keep failing. I get no errors regarding `subscribe`, but  I face other one, when following your proposal is: `Expected one matching request for criteria &quot;Match URL: /dailies/svc/v2/users/xxxxx&quot;, found none.`. I am quite sure that the method call with subscription isn't triggered in this case, that's why the assertion `httpTestingController.expectOne(theExpectedUrl);` is failing.",0
+"I am still quite sure it does not affect any deployed apps on current devices. It may stop the App with bundleID matched with this provisioning which is signed with the development certificate, but only on debug mode. I've found [this topic](https://stackoverflow.com/questions/34594876/enterprise-distribution-provisioning-profile-expiration), take a look. In short, it may impact the bundleID, that is signed to the certificate. And in-house IPA can't install manually device by device by debug mode (dev cer), you should have a link for installation somewhere (distribution cer).",0
+"What are you actually trying to test here? You're appear to be replacing the service with a test double _and_ using the HTTP testing module, which leaves no actual implementation involved at all. Also is `myService.theMethodInTheService.subscribe(...)` really the right API expectation - normally you'd _invoke_ a method, for one thing.",0
+"@Jean-ClaudeArbaut  Thanks for your input --- modified benchmark using varying inputs on each loop and now I get results that make more sense:   All were compiled as 32bit:   Digital/Compag on WinXP(as guest VM):  1209 FFT/Sec,  Digital/Compaq on Win10 1422 FFT/Sec,  gfortran with -O3 opt. 1975 FFT/sec,  Intel with max. -O3 opt. 2071 FFT/sec.    This makes much more sense.  Thanks Jean-Claude.  However, I will probably continue to use fixed format source code because I'm &quot;old school&quot;...ha...ha.  Thanks again Jean-Claude and Steve",0
+This works so well that now one of the first things I do when setting up a new development machine is to create `~/bin/git-make-bare` which does your third option.,0
+"@Sergey, I do not have a master database that is visible in the Object browser, so I am unclear on how to do this.   Maybe I'm using the wrong terminology ... the db_name is &quot;master&quot; in the procedure I am using.",0
+From the vite config file of yours there is seems to be no problems can you share your DishIndex component. What did was i scaffold new vue project with vite and config files and its working.,0
+"@ArpitJain I suppose my next question is then, how do i send the command using the PHP SDK?",0
+"From what it seems, all I needed to do in order to automate the process without having to clarify each time between `e/o/a` was to put an `-A` in the command. So now it seems to be working perfectly! Thank you again for your solution. Just to clarify, the final code i'm going to be using is                                                                                                     `for src in *TEMP*.nc&#xA;do&#xA;    tgt=&quot;${src/TEMP/RFVL}&quot;&#xA;    ncks -A -v thetao &quot;${src}&quot; &quot;${tgt}&quot;&#xA;done` so basically the code you wrote with the addition of `-A`",0
+"@cyberbrain Yes, for arrays, but there are possible other types like Integer in my example",0
+And your problem is?,0
+@DuncanC &#xA;I had added it Please check it,0
+Thanks again for the help on this. I just updated my question and added a regular simple and an issue one.   And also added the update code based on your suggestion.  May I ask if you can lend me a hand to review if I am understand right? Tons of thanks,0
+"I don't mean the issue is with Umbraco or any other framework. It could be related to the code organization, the use of CSS, missing end tags, etc.",0
+"But in your example code, the `item` is neither a `ISomeInterface[]` nor a `ISomeInterface[][]`, so I don't see how you'd expect that to work.  Your output type is different from your input type, and I don't see any mention of this in the question.  Do you understand why this is the case? A function that takes an input of type `{a_b: number}` and produces an output of type `{aB: number}` cannot be thought of as being of a type like `(item: T) =&gt; T`.  Instead it has to be something like `(item: T) =&gt; DeepCamelCase&lt;T&gt;`. I'm not sure if I've managed to convey the issue; can you confirm?",34
+"What if i am running a process that can't be interrupted and lasts more than 4 hours (the default expiration time for the access tokens) . In this case, the refresh token is not useful as the process can't be interrupted or it will start from scratch.",0
+If I remove that scanBasePackages I am getting issue from the Controller class above @Autowired annotation that there is not repository instance available. I am able to compile the code only if I give this scanBasePackages annotation.,0
+"If the Excel file is opened by user, `Set xlApp = GetObject(, &quot;Excel.Application&quot;)` will get the Excel object.",0
+"Martin's YUV420 to RGB function presumably works, so you could read it to see how he used 16-bit integers.  Avoiding overflow while working with i16 or u16 elements does require more care than floating point, but can be at least twice as fast if the hardware provides useful operations with good throughput.",0
+I have the same problem again                       &#xA; No such file or directory: 'C:\\\\Users\\\\goce\\\\&#xA;Documents\\\\vezba 1\\\\goce.txt,0
+Any link/tutorial on how it can be done ?,0
+I missed that some of the JSON values are arrays and other are not. @Bergi has got it the right way.,0
+"it sounds like you have a &quot;prop drilling&quot; problem. There are various ways to address it. For example, take a look at https://blog.logrocket.com/solving-prop-drilling-react-apps/",0
+Use finally block to close,0
+"if I remove spring.autoconfigure.exclude, I am getting the below exception:&#xA;&#xA;&quot;Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManagerFactory' threw exception with message: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:mysql//localhost:3306/mydb&quot;",0
+@MuhammadKumail - is there a reason you don't want to simply use `didSelectItemAt` ?,0
+"@Masklinn but I can only know if I can delete the folder by checking that it's empty (which fails if we do so too quickly after issuing the delete for the child). What I could do is say that when supposedly there is content, wait for 0.2s and check again to ensure before stopping. Thought: Maybe a network mounted folder will delete async, which is why I'm encountering this?",0
+"It was a bool check, not empty, because SQLite3 returns false if SELECT didn't find anything, so first argument could be false too, that's what I wanted to prevent.",0
+"@VirajShah `-` is a hyphen, a comma is a `,`.",0
+"Sorry, forgot to move the comment from the code block into the body of the question.",0
+CAn you add a little more detail? what is the java code you wrote and docs of third party api? sample should be fine,0
+"And what are you trying to say here? Is this your way to explain and clarify the use case? No need for such/your advise! Also I didn't paste the complet code so, that you can provide a final input!!",0
+Damn! Being in a hurry i misplaced my plugin section as well,0
+If you are working with dependency injection you need to register your db context as Scoped (AddScoped) - set the value for contextLifetime to ServiceLifetime.Scoped.,0
+"The variable names are a bit weird. I would have expected rows to be limited by board height, and columns to be limited by board width. Also watch out for off-by-one programming errors in the comparisons.",0
+"I tried accessing the url in all the ways possible, it didn't seem to work  (With and without / in the end)",0
+"Ah ok. If the main concern is how it looks, also consider putting the data validation source on a different sheet, and hide or very-hide the sheet.",0
+"Best explanation I have found for this, great job, thank you for helping me finally understand what the mysterious &quot;rebase&quot; command does. :)",0
+If you have used whatsapp in past you have notice this when you come to the app it shows you online to others but if you just click home button(ATTENTION : - app is running in background).then you become offline. I want just like this in my app but .disconnect() is work when I destroy app. but THANK YOU.,0
+"Default floating point precision cannot handle such small differences. After 17th iteration, `1 / (math.factorial(i))` ends up so close to 0 that adding it to `2.7182818284590455` is not enough to make it a different number.",0
+"You do not explain why the second code is better. But mainly, those two blocks are identical.",0
+"Just for clang, not MSVC.",0
+"The shape of dot_product_pseudo  is [input_channels, out_channels] and the same is of Ht.t(). Ht.t() is equal to HH. Therefore this operation can not be performed.",0
+"Can you share your `ansible.cfg` file, the whole playbook as well the command line which was used to call it? Just like to note that the message comes from the [`plugins/connection/__init__.py`](https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/connection/__init__.py#L108) and not from the `synchronize` module.",0
+"Thanks, In the keycloak logs I found an error which said: ` WARN  [org.keycloak.events] (executor-thread-23) type=CODE_TO_TOKEN_ERROR, realmId=59e81210-49e1-401a-8e6a-84d41ebc2510, clientId=myClient, userId=null, ipAddress=192.168.65.1, error=invalid_client_credentials, grant_type=authorization_code`. Upon googling the `CODE_TO_TOKEN_ERROR` I found this [issue](https://github.com/keycloak/keycloak/issues/16923) where it's recommend to make client public - that fixed the issue.",0
+"I was hoping not to have to dig into that nest of private functions, but after doing so, I found a minimalist solution; thanks.",0
+"You are right, but the second snippet with a dynamic worker was actually working, I just had to console.log it.",0
+Thanks! This solution worked well for me in my use case: converting old C-style DLL header files from using `#define` for the flag values to something that works with modern editors and code hinting,0
+"Just construct your dates from ISO strings with `Z` offset or from `Date.UTC` values, and never use `.toString()` but always `.toUTCString()` (same for the other methods)",0
+did you try that? https://github.com/parse-community/parse-server-example/issues/432#issuecomment-1535963633,0
+here: https://github.com/Homebrew/homebrew-core/issues/155651#issuecomment-1830261308,0
+"Sorry, I meant hyphen. I said I am losing this one, SMH!",0
+"Requesting clarification from the author of a post is one of the documented purposes of [comments](https://stackoverflow.com/help/privileges/comment). What you've posted seems internally inconsistent, so I'm asking for more information - it might be clear to you, but for useful SO content it has to be clear to _other people_ too. You haven't given a [mre], as suggested in [ask], or even shown what (presumably passing, although I'll concede that doesn't mean you involved the actual implementation before migration either) test you're migrating _from_.",0
+"@Pac0  I'm not a freelancer.  My QA team alone has close to 30 people, to say nothing of the engineering, BA, and architecture teams.  When I think of including TS in front of the already existing JS dev for the front-end team, what I see is DevOps having to build yet more automation steps into the CI/CD, the QA team having to do a completely new round of testing on what amounts to interstitial code before they can test the *actual* functionality when that code is built into actual JS. I get the notion of types, but as long as your dev patterns are solid, I don't see the need for an extra step",0
+"I don't have the program mentioned in the post. Other colleagues of mine are also experiencing the same problem as me suddenly, we'renot understanding why",0
+Please provide enough code so others can better understand or reproduce the problem.,0
+"I've edited my answer. Go through the whole answer again, I've added your appname `myapp`. Also read the docs.",0
+"... especially since moving up or down changes the row, and moving left or right changes the column.",0
+"@vsync Please read the comments and answers here, `return await foo();` is the only correct solution.",0
+&quot;*JS in browsers run on V8*&quot; - in a few browsers. Not in all of them.,0
+"What was confusing me so much was the need to set the content view on the activity, but from what I can see that's not necessary. The testing functions the same as espresso by simply setting up an `AndroidComposeRule` and calling `onNode` from there.",0
+Pretty old question. Is it still not possible in 2024?,0
+"By the way, I am getting that result with this code:&#xA;**[0-9]{2}(:[0-9]{2}){3} - [0-9]{2}\:[0-9]{2}\:[0-9]{2}\:[0-9]{2}**",0
+"try to re install the packages, new version was recently added",0
+"I am in the usa and I am not using a vpn, I will try the solution you provided and will let you know!&#xA;&#xA;Thanks",0
+I don't get why returning null should make it more explicit than throw a UserNotFoundException. By throwing an exception the program leaves the happy path and jump into error processing. That is imho clean code.&#xA;By returning null the caller code has to use a function as an expression e.g. is_null( getUser( 'Uncle Bob' ) ) and then do the error processing if this statement is true.&#xA;According to Uncle Bob this should be avoided.,0
+This might be a concurrency issue what happens if you add a different delay so the calls are not simultaneous,0
+"@AmirAsyraf `--skip-worktree` only works in the local repository (per https://stackoverflow.com/a/35451213), so each developer that clones the upstream repository would need to run that command. Which makes it a rather fragile approach unless you're the only developer.",0
+Maybe https://www.jetbrains.com/help/pycharm/comparing-files-and-folders.html or https://www.jetbrains.com/help/pycharm/differences-viewer.html,0
+Please provide enough code so others can better understand or reproduce the problem.,0
+Hey !&#xA;I'm running into the exact same problem.&#xA;Have you found a solution ?&#xA;Thanks :),0
+"for comment line # max   f2 + delta*epsilon &lt;br&gt; in the end, is it should be max f1+delta*s?",0
+"@ShreyanshSrivastava you're welcome. If you found the answer useful please consider [marking as accepted](https://stackoverflow.com/help/someone-answers#:~:text=To%20mark%20an%20answer%20as,the%20answer%2C%20at%20any%20time.)",0
+https://stackoverflow.com/questions/63121268/how-can-i-introduce-the-radius-in-query-radius-balltree-sklearn-with-units-of-r,0
+"@Berni if you have a refresh token, you can programmatically get a new short-lived access token whenever you need during your process. While individual short-lived access tokens only last for four hours each, you can get a new one before or after four hours as necessary, in order to continue making further API calls uninterrupted during your process.",0
+this won't work at all inside a functional component. You're re-creating the call on every render.,0
+Where are you actually using those `DateTimeFormat`s you construct in `initiatilizeApp`?,0
+"@CtrlZ there can be several params like `func(onoff=True, other_param=False)` &lt;=&gt; `func(request={&quot;onoff&quot;: &quot;1&quot;, &quot;other_param&quot;: &quot;0&quot;})`.",0
+https://stackoverflow.com/a/77365067/21590733,0
+"Why are you using those old system views like `dbo.syscomments` and `dbo.sysobjects`? They are for compatibility with SQL Server **2000**; surely you are on a more recent version, no? You *must* be, you're using a `MAX` data type. I strongly suggest you have a read of the [System compatibility views](https://learn.microsoft.com/en-us/sql/relational-databases/system-compatibility-views/system-compatibility-views-transact-sql?view=sql-server-ver16) documentation and update to the SQL Server 2005+ system views.",40
+"The location of the file need not be secret.  Instead, ensure only the processes you expect to have access, have access.",0
+"NEON has a byte shuffle, TBL.  That can put any bytes anywhere.  If you did a zero-extending load, there will be some zero bytes you can shuffle into the positions that need them.  TBL isn't the fastest shuffle on some low-end cores, so it might be a tradeoff, though, of one slow instruction vs. multiple.  Ok yeah, clang just uses TBL when auto-vectorizing `out[i] = in[i]` for u8 to u32: https://godbolt.org/z/vW3nbavfx . GCC uses `utxl` / `uxtl2` in two steps, needing six instead of four shuffles for 4 vectors of results, but they're all `uxtl`.",0
+"If you check the browser compatibility section of the page I linked, it has a note that Navigator.share is only supported on Chrome for certain operating systems: ChromeOS and Windows.  I think that's your problem since you're using Chrome with iOS.  You could use Safari instead",0
+"To be honest this feels like a browser bug to me, I can't see any legitimate reason why the `clientWidth` should be changing here. With a brief look I've not been able to find any existing bug reports, this might be something worth raising.",0
+"The jdbc url was wrong, So that's why I ended up adding the exclude-autoconfigure configuration, which resulted in the other errors and so on. &#xA;&#xA;Correcting the jdbc url fixed my issue. Hence closing it.&#xA;&#xA;Thanks for the help everyone.",0
+I also noticed i had this when I changed the procedure name to one that doesn't exist in the database... because I accidentally created my new version in the master DB (as you do)!,0
+@dalton_c Thanks for your support. I forgot to set class public in target membership,0
+Do you have a full [mre] which can be run?,0
+&quot;Safe&quot; in what sense?,0
+"No, A JavaScript context is single-threaded and will be single-threaded for the foreseeable future.  There may be many threads within the process, as is the case with Node.js and its many IO threads, but only one of them will be accessing the JavaScript context at a time, thus, from JavaScript's perspective it's still single-threaded.  There may also be multiple workers to achieve script concurrency, each with its own JavaScript context and thread, but they are isolated and data must be exchanged via passing messages. Workers don't have direct access to data or objects of other workers.",0
+"@Vahid Using an API is your only option. Websites are specifically designed to prevent scraping. Why do you think the capcha is there? To prevent bots from scraping. If you want the data, you WILL need an API.",0
+and how do you build?,0
+`Serilog.Expressions` is a bit difficult to get your head around but is definitely the right tool for the job.,0
+"@Spencer Matthews: Great function! could something like `numericInput &lt;- function(...) {autonumericInput(..., digitGroupSeparator = &quot; &quot;, decimalCharacter = &quot;.&quot;)} ` change the default behaviour of numericInput?",0
+It's unclear: How do you currently are saving these informations? Where?,0
+Please do not name a function and variable the same thing...,0
+@splash Do you have any idea where *ICARUS* and *Understanding Delphi Unit initialization order* have moved to?,0
+"same issue, how to fix it?",0
+"I have a Makefile alongside, so I run `make`.",0
+"@VirajShah Use the one from my answer, I tested it and it works: `[0-9]{2}(:[0-9]{2}){3} - [0-9]{2}(:[0-9]{2}){3}`",0
+Add a continue handler to leave branchesLoop in case no row was found.,0
+fixed the missing prop but still not hiding from tryout params,0
+@PeterMortensen Thank you for the references you provided . Are there any specific points you are thinking about? I have provided a proper link to the documentation and it is clearly visible that the content I have pasted is copied from the documentation (as it is formatted as quote). Are there any other issued you have in mind?,0
+"@isherwood Thank you for recommendation, I will take into account it. I was trying to find a css grid solution for it, but I don't have enough experience in it. It would be great if you can share some ideas how to implement that using grid.",0
+@TamasHegedus - Please read only my comment and ignore all other comments and answers.,0
+"@jcalz right, I can see what you mean now. In that case you're right, I'll have to write a type mapping function as you've shown in the first playground example",0
+Also posted on Android.SE: https://android.stackexchange.com/q/255731/44325,0
+This was a procedure that I found on the internet that seems to work fine on the platform I am on.  Are they obsoleted?,0
+"There are certain sets of rows in between each part, for the first one it's `9+X*44 = Target.Row`. For the second one, it's `X = Target.Row` with the Calculation Sheet part being `9+(X-11)*7 : 15+(X-11)*7`. For the third one you can put the rows you want to get adjusted ((un)hidden) in an array and then check if Target.Row is in said array.",0
+Might be related to this: https://github.com/dotnet/razor/issues/7539,0
+Judging by the pill on the linked page that icon didn't arrive until version `4.7.0`.,0
+Many thanks! I am a stackoverflow newbie. The readability is improved now.,0
+"No, i have used @GetMapping.",0
+"I'm interested in this topic too. What I'm doing is to check in the project if has the app or the library plugin with project.plugins.hasPlugin(&quot;com.android.application&quot;), and depending on that applying a gradle script file or another (In this gradle file I can apply the library or application plugins to access the android). But in the end I need to have the android part duplicated.&#xA;&#xA;In Groovy you can do this very easily.",0
+"Thanks a lot for your comments, I have edited my question with reworked code using threads",0
+"Manually keeping track of the factorial speeds up the code a lot, since the previous factorial can be used without calculating it again for the current value.",0
+Does this answer your question? [Spread Syntax vs Rest Parameter in ES2015 / ES6](https://stackoverflow.com/questions/33898512/spread-syntax-vs-rest-parameter-in-es2015-es6),0
+"its not that hard and no i dont have links - google might, but, look at the navmesh components, look at what they do, it will stand out",0
+"Yes, as you said, things are working that way now; and I wouldn't want to introduce many dependencies or complicate the process too much further. I do appreciate the input though. I think the point for calling my functions from inside the same DLL isn't really useful for that specific scenario. As I mentioned, all those functions are mainly called via some reflection interface. While I can get a function-pointer to call, after compiling to native code, each piece of code that would use such a function-pointer could potentially use any, and not one specific that can be specified via linking.",0
+"Or with `-mcpu=cortex-a77` instead of A53, https://godbolt.org/z/c6aPWajjc GCC uses `zip1` / `zip2` with a zeroed vector, also six shuffles for 4 result vectors.  With with `-mcpu=cortex-a710`, SVE is available which allows `ld1b` / `st1w` which apparently converts for free or on the fly as part of either load or store, not sure which.  (I'm not that familiar with SVE, but the byte vs. word naming in the mnemonics is pretty clear given what GCC is using them for.)",0
+Are you looking for a `for` loop⁉,0
+"Same as `create((set, get) =&gt; ({ ...createBearSlice(set, get), ...createFishSlice(set, get) }))`",0
+Chat GPT or anything can't figure this out. thanks buddy that was really helpful.,0
+"YES!!!!  That did the trick!!!  Here's also part of the problem - I'm writing a bash script using the above single-lined entry on Apple's macOS.  PLEASE don't shoot me - I use my Mac for initial code development using an IDE, test it, then upload on the target LINUX system. I intend to use it on a Debian-based LINUX system.  I suspect that there may be subtle differences as I've had problems in the past with similar single-lined entry scripts.",0
+"To make it more clear, here is a short pastebin to show how such a method is called: https://pastebin.com/35XEKFpu&#xA;m_method is a wrapper around calling from eigther bytecode or native code, and CompositeEventBinding can be instantiated many times with different &quot;methods&quot;. Does that clarify how calling functions directly from DLL would not work in my case; or am I missing what you actually meant?",0
+Where are you seeing the exit code you report in your title?  What do you see when you click on the sheet of paper icon in the processes table? What version of pgAdmin4 is this?,0
+Props to @MadProgrammer for confirming that I had to wade in to that mess.,0
+Very true! I just like using a little `after_stat` wherever I can :D,0
+&quot;if every thread is doing then same execution&quot; &lt;- Threads/lanes always run *the same code* but with *different data* - resulting in a *different execution*. That's true for WMMA as it is for all work in CUDA.,0
+"You have to click on &quot;System databases&quot; to find the master-db, if you're in SSMS that is. If not, then i'm not sure why you can't find master, it should be always accessible",0
+It is surprising why it is not working on my side. It gives me the result **&quot;word found no items matching this criteria&quot;**.,0
+"... and what is the command called by `make` that generate the error, you can try with `make -n`",0
+Not yet :( @Ashman,0
+"How could we use this with private repo? I've searched through the code, it is using the `node-fetch` and won't accept any parameters for header and auth.",0
+`null as number` is not valid TypeScript,0
+"When I pass user@domain.com, I get incorrect username/password. However, when I try to pass domain\username, I get error:&#xA;&#xA;Start-Process : This command cannot be run due to the error: The requested operation requires elevation.",0
+"So should I write my answer up then? Do you want to [edit] the question to acknowledge that the type mapping you're looking for is not really anything like `T | T[] =&gt; T | T[]` and change the [mre] to demonstrate the actual desired behavior?  I could do the edit myself if you'd prefer, but I don't want to start on this if my approach doesn't actually meet your needs.  Could you test it and get back to me?",0
+"Any reason, you cannot (want not) use [`DeleteFile`](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-deletefilew) directly?",0
+Added explain to question,0
+I won't be able to refactor your layout today. Here's a good resource: https://css-tricks.com/snippets/css/complete-guide-grid,0
+"The argument &quot;browsers use the same engine as nodejs, and nodejs has a thread pool&quot; makes no sense, and does not answer the question.",0
+"Sounds like I have answered the question, and now you should ask a new question with new debug details.",0
+It simply copies all the stuff and saves it in a single cell. Im unable to understand how to filter and save the table portion only.,0
+"Yes, those system views were made obsolete (read replaced/deprecated/put into maintenance mode), in **2005**. There's a big warning about it at the top of their documentation pages, such as [syscomments (Transact-SQL)](https://learn.microsoft.com/en-us/sql/relational-databases/system-compatibility-views/sys-syscomments-transact-sql?view=sql-server-ver16).",0
+"What do you mean by &quot;approving/rejecting a manual approval&quot;? Do you want to overturn a PR review decision, or what approval are we talking about?",0
+That's a good point. Do you have any idea why it's getting redirected? Would &quot;Enforce HTTPS&quot; and waiting 24 hours help in any way? I've only tried that option and waited 4 hours with no luck.,22
+"For posterity:  This only prevents the JProgressBar from ceasing its animation.  If you want to see it animate in the JTable, you will still have to tell the table to repaint that cell at the desired frequency!",0
+"@siggemannen That's it!   Thank you so much for your help!   I believe the SP was created by a previous developer inside the master DB by mistake.  Because that folder was closed (and really never used by me), I didn't know that was where I could find it.&#xA;&#xA;Thank you for your help and kindness.  If you want to put it as a solution, I will mark it as closed.",0
+"Unless you write both variables to the markup, you can't change them through JS. Also, `$old-image-url` is not a valid variable name, as it should not contain dashes",0
+I have tested with your code. The problem is data means header section works fine. But when i tried to second row to so on..it throws error  `Undefined array key 1`,0
+"If you have dependent libraries then you can't do it like that. I would rather use a generic build system such as Maven, which will allow you to make a 'fat jar' with Maven Shade. I don't recommend doing it 'manually'",0
+Do expect them to have the same display format attached? Or do expect them to have the same defined maximum LENGTH.  Those are two different things in SAS.  And if you thing the variable is defined as length of only 16 in IMPALA then there is also a disconnect somewhere.  I suspect that instead the variable is define as undefined length in IMPALA so SAS used the maximum length it supports.,0
+Haha. Me too. And after I managed `stage` I use it everywhere. :D,0
+"@TonyServies cheers, happened to me many times (i mean creating procedures in master db :))",0
+I did. Please let me know if you can be of help!,0
+I don't know of one.  This question is pretty old-- I don't have a lot of experience with stack overflow but this really shouldn't be the marked answer anymore.,0
+Great Thanks that worked for rows but if add in columns excel gives error. could help how to add icecream in columns instead of rows?,0
+"Finally, what do you mean by &quot;Error screenshot&quot;? Please share more details about that error, which I cannot find in that screenshot",0
+"The master strikes again ! Thanks, Davide - works perfectly fine and leaves me in awe ! ;-)",0
+I am stuck at the same point. Were you able to run the migration in the end? Any help would be much appreciated.,0
+"@JialeDu I got stuck at the step of &quot;use Python extension to execute your code&quot;. What do you mean by this? If it is saved as a python file, will it not automatically run with the python extension?",0
+Fixed my problem of the msi file being locked while the application was active/open!,0
+remove const from `body:  SingleChildScrollView(`,0
+@blhsing how can I go about fixing this?,0
+Is PowerShell running as admin? If so that means the account does not have the necessary admin permissions.,0
+"I have applied the changes and a new error emerged the traceback is ::   django.core.exceptions.ImproperlyConfigured: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.",0
+"@Balalen I was planning to set up a webhook on the main project that would trigger a new project build for the subprojects, using Jenkins for example.",0
+"Note the wording on that documentation page is poor. It is actually the LENGTH of the variable, not the display format attached to it that is important.",0
+`/ *_&amp;_C-alpha ]~/p` requires there to be a `~` after the `]` to match - is there a `~` after the `]` in your data?,0
+No. I want to map each local IP address to a stream.,0
+"@m47730 It works for me in JS, PHP and Python, here is a [demo](https://tools.waytolearnx.com/regex-tester/27e960fd8941).",0
+@DuncanC&#xA;I had added in extension of ViewController in declaring protocols for CollectionView,0
+"Redefining the field in my case caused to lose the help text defined in the model. What I ended up doing was similar to what @toabi suggested, I did it in the `MyModelForm` `__init__`&#xA;&#xA;`self.fields['json_field'].encoder = PrettyJSONEncoder`",0
+"Hey @Rob, quick question, why is generally advisable to avoid using a `dateFormat` for output strings?",0
+@PredragDavidovic You can use `navigator.clipboard.writeText(...)` but seriously `document.execCommand('copy');` is commonly used in most websites although it is marked as obsolete. It can be still used in the future.,0
+"Thank you for this complete code but How do I print this?&#xA;I tried&#xA;    // Create a new hidden iframe&#xA;    const iframe = document.createElement('iframe');&#xA;    iframe.style.display = 'none';&#xA;    document.body.appendChild(iframe);&#xA;&#xA;    // Set the content of the iframe to the data URI&#xA;    iframe.src = `data:application/pdf;base64,${data_pdf}`;&#xA;&#xA;    // Wait for a while before initiating the print&#xA;    await new Promise(resolve =&gt; setTimeout(resolve, 1000));&#xA;&#xA;    // Print the PDF&#xA;    iframe.contentWindow.print();&#xA;and not thing happend.",27
+What if it does not work?,0
+"@cas yes that's what I was thinking by &quot;failure&quot;, instead of having `if listdir(top_folder): break`, have a loop around which tries a few times (potentially with a backoff) that way if everything deleted synchronously (or at least quickly) there's no sleep, and if the deletion is async there's just a bit of sleeping, there's more on actual failure but that's likely a case you're happy sacrificing anyway.",0
+"If you have further issues, you can always come back and ask a new question. There should not be too many issues with this short oneliner. Although if you import files between mac and linux, you may get some issues with line endings. Or perhaps they both use debian, so it is no longer an issue, that's not my field of expertise. :)",0
+"@besc not yet, I found a solution that suggests you should listen to the escape globally and prevent its default behavior. It works, but this will make other dialog, overlays, and input stop listening to this event.",0
+"I've been trying it out because I ran into the same problem... It works but it takes a few minutes. It's not instant, but it takes about five or ten minutes.. I'm still trying to figure out just how long. The problem I was having is that I have a movie which I update all the time. It wasn't updating immediately but it DOES happen . Just a note: this will prevent everything from being cached so every request for your page will load directly from your website.. I couldn't tell any difference in losing e times on my site. Hope this works ✌️",0
+_&quot;for some reason IntelliJ prefers to keep the square brackets after the class&quot;_ not just IntelliJ. That style is the most commonly used one in Java style guides.,0
+"Hi @vu-viet-hung, As I wrote, main point is, that you your Storybook as independent git repository and this repository i part of your projects as git submodule. So, you have just &quot;single source of truth&quot; - your SB independent git repository, but the implementation depends on your &quot;main&quot; Project/s. In Drupal is this as custom theme (and better way is to use subtheme derivate from your SB custom theme for each project..",0
+This is still very useful in 2024!,0
+Thank you ! &#xA;remember to restart the machine,0
+@CodeMan03 No I never figured this out.,0
+Can you share the exact text data? Copy/paste into the question to update it.,0
+Yes PS is running as admin. What permissions do I check more?,0
+"@zord i tried that, I get a bunch of gibberish `[39m [36m` etc",0
+"@Juliean: Ok, so there's already some indirection baked in to how you call anyway so pointers into a memory-mapped region couldn't go away and turn into direct calls anyway.  So the only advantage of having the code in the `.text` section of your DLL would be iTLB locality and disk-cache effects.  (And no separate file, and no custom loader to maintain, but instead a table of function addresses to maintain I guess.)",0
+"Maybe Webex, see [VS Code issue #201151](https://github.com/microsoft/vscode/issues/201151).",0
+did. you find any answer?,0
+"Thanks for the quick answer. Yes, it might be that context can't be shared, but there is definetly some information about sharing assets from contexts. The problem I have is that to share assets you need to do a QOpenGLContext.setShareContext which require the pointer to the context you want to share to. How I get that pointer from another running context in a different python process? I tried shared_memory from multiprocess but I might be missing what is the attribute to share.",0
+Are you using angular? If so and you think it's relevant to the question at all then consider adding it to the tags,0
+So we can just write `x: int` before calling the mehods. It's probably best to annotate the variable there anyway when we declare it.,0
+"@jcalz yes, I'll play around a bit then edit my question and the minimal reproducible example to better reflect the desired behaviour. Thanks a lot!",0
+Please refrain from making edits to a question that change the nature of the question or make it difficult for new viewers to ascertain how the answers relate to the question.,0
+Naa I'm talking about those color marks in the gutter,0
+@AlokPrakash That is not going to change anything,0
+@DonMag &#xA;No there is no reason but how I write code to make the particular View Tappable in didSelectItemAt. It'll be well if you write the code for customView.view,0
+"This is still not working for us, have wildcard and site association file on all domains within root and wellknown",0
+"@mtp Actually in [`sprintf`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/sprintf.html) (always use original not data-camp or similar) we can read in *Arguments* that it accepts character vectors and _Value_ that it returns character vectors - couldn't find the word *scalar* on that page. Yes, read the official [R-intro](https://cran.r-project.org/doc/manuals/r-release/R-intro.html) and other stuff on  [CRAN](https://cran.r-project.org/).",0
+I found it! &#xA;https://stackoverflow.com/a/65731956/17798537 &#xA;Using like `let byteCharacters = atob(data_pdf);`,0
+"For the *Worksheet Change* event to work, `E2` can't be a formula i.e. a dropdown (a value) is the way to go. You have to keep in mind that you need to clear the previous results. If the results are only values, you can make it efficient by introducing arrays. If you need the formatting as well, the most efficient way would be using `Advanced Filter` which would require the headers `Column A` and `Column B` e.g. in cells `D1` and `E1` respectively. Let us know which version you would like to try.",29
+"sorry, but it doesn't match dash &amp; underscore, you can see it [here](https://tools.waytolearnx.com/regex-tester/965db5412787).",0
+"It looks like you are trying to 'move' files from one directory to another rather than trying to bring all into a R session.  This is how I interpret your readWave; savewav. Where are the readWave(s) coming from, i.e. which directory?",0
+"The actual base32 digits were all correct, so the bitwise operations look the same, but they were reassembled in reverse order. It's like saying 35,622 == 22, 653 in base 10. The digits were the same, but the numbers are not. A test like assert decode(encode(x)) == x verifies the problem in the original code, and the fix here. Edited.",0
+Remove `.asObservable()` from your get method `getProfileDialog` and just subscribe directly to `BehaviorSubject`,0
+"So yes, updating the CDN's did the trick.",0
+Thank you so much @Md.YeasinSheikh. I've fixed my code for anyone.,0
+"Precisely. All methods from within the generated code already call themselves using rel-offsets, and the application only calls entry-points via indirection. I'll note down those advantages you mention, to consider in the future.",0
+@QuantsBridge I don't fully understand your output. I believe the rows 8/9/10 should be kept since all quarters are present for code 1003 and year 2021 (03/06/09/12). Same for year 2023 and code 1001 (rows 4/5/6/7).,0
+"OK my mistake: I had tried &quot;from_column&quot; without any success - but I just realised I was using gt 0.9. After updating this works perfectly, thanks!!",0
+Do you have `Wonder Woman 1984` in your collection? How about `Fahrenheit 451`? Add examples like that or any other non-trivial cases to your sample input/output or you're likely to get solutions that won't work for them. It's always far easier to write code to match the strings you want to match than to not match similar strings you don't want to match.,15
+"Do you need the Windows Task Scheduler somewhere? I mean, could you just play the alarm sound from python? Perhaps just use single thread dedicated to alarms, and add alarm tasks or a specific datetime from your main application using queues.",0
+How can I go about fixing this?,0
+"@TimBish The original issue is resolved. Thanks Tim and Justin. I am seeing a new error now, will create a new question for it.",0
+"Yes, doesn't look like it understands that it needs to use msvc style command line arguments",0
+"`== 3` would be more appropriate. Nobody knows what Python 4 will look like if such a version ever comes out. For all software that adheres to Semantic Versioning, it's a bad idea to allow a higher major version: https://semver.org/",0
+Facing the same issue using .NET Maui. It seems like both services are trying to use the microphone. As long as I dont dispose the KeywordRecognizer the SpeechRecognition can't use the microphone and the error gets thrown. I sadly still have no solution to this.,0
+"hmm okay, what does this look like in an appsettings.json setup though?",0
+"Plenty of solution on SO, just need to go through them to find closest to your requirement: https://stackoverflow.com/search?q=%5Bjavascript%5D+wrap+words",0
+"I think dateFormat just supports a specific string format, and dateStyle &amp; timeStyle can support localization.",0
+"Yes, C++ `std::vector&lt;bool&gt;` packs bits densely, which makes it unsafe to write separate indices from separate threads.  (And the iterators aren't just pointers; it's messy and [a bad/surprising name for a good data structure](https://isocpp.org/blog/2012/11/on-vectorbool).)",0
+"@Peter-ReinstateMonica: If `*s == 0` you might as well not even bother calling `strtol`, so I disagree with the single combined test.  But if your input could be an empty string then testing for that is needed.",0
+"Not really, here's the repo https://github.com/rarDevelopment/rardk-web-dotnet/tree/dev",0
+Show us the code you are using to print these values.,0
+"@Manami please don't fix the problem in your question, because it no longer makes sense to other people stumbling upon the same problem and finding your question",0
+I was missing this thanks. All of the object strings needed qoutes on all of them.,0
+"@Bergi Just to be absolutely clear, the &quot;a&quot; argument is the &quot;set&quot; and &quot;get&quot; arguments??",0
+"Or it might be Conan setting the arguments as you've set `compiler=clang`, it thinks you're using clang",0
+"First check if you actually have admin permissions, use this &#xA;&#xA;`if ($myWindowsPrincipal.IsInRole($adminRole))&#xA;    {&#xA;        Write-Host &quot;Running as Administrator.&quot;&#xA;    }&#xA;    else&#xA;    {&#xA;        Write-Host &quot;Not running as Administrator.&quot;&#xA;    }`",0
+"Because if it is for the UI, you want it to be localized, shown in the format preferred by the user. E.g. UK users will prefer ”20 Dec 2023“, but US users will prefer “Dec 20, 2023”. By using a “style”, it will honor the settings shown in “Settings” » “General’ » “Language &amp; Region” » “Date Format” (which also shows you what the “short”, “medium”, “long”, and “full” date format styles will produce). See the discussion of “user visible” and “fixed format” date formats in the `DateFormatter` [documentation](https://developer.apple.com/documentation/foundation/dateformatter/).",0
+&quot;Why do I call the function again?&quot;  As opposed to what?,0
+I doubt someone will be able to help you with so little info. Best I can say is to try removing parts of the content from the page and narrow it down.,0
+@CharlieParker I have seen this being used in lagchain text-splitter https://api.python.langchain.com/en/latest/_modules/langchain/text_splitter.html in RecursiveCharacterTextSplitter Class.,0
+"route:&#xA;  group_by: ['alertname', 'instance']&#xA;  group_wait: 10s&#xA;  group_interval: 5m&#xA;  repeat_interval: 30m&#xA;  receiver: 'default'  # Default receiver for unmatched alerts&#xA;&#xA;  routes:&#xA;    - receiver: 'winA'&#xA;      match_re:&#xA;        alertname: winA&#xA;    - receiver: 'winB'&#xA;      match_re:&#xA;        alertname: winB&#xA;&#xA;receivers:&#xA;  - name: 'winA'&#xA;    email_configs:&#xA;      - to: 'A@A.com'&#xA;        send_resolved: true&#xA;        from: 'fromA@A.com'&#xA;  - name: 'winB'&#xA;    email_configs:&#xA;      - to: 'B@B.com'&#xA;        send_resolved: true&#xA;        from: 'fromB@B.com'&#xA;  - name: 'default'",0
+What version of SAS are you running. From the documentation linked below support for CHAR or VARCHAR types (the only character types in IMPALA that have a defined length) is not supported until SAS 9.4m3.  Make sure you are using a version released in the last 9 years.,0
+"For global usage, the configuration has to be installed with `npm i stylelint-config-standard --globalconfig --save-dev`.",0
+"hi, i'm having the same issue. Did you find a solution?",0
+"Thanks, I think I figured it out. Happy New Year!",0
+"If the above returns not running as admin, then you need to check your account with your AD admin and request/assign the correct permissions on your account.",0
+That's the typescript definition of the resolver. The code has to be in your code base somewhere because the resolver is throwing the error. You could potentially find it using your debugger.,0
+"Observable was introduced in 2023 and only works with reference types. It is quite a leap to suggest that no one responsible for it understands the basics of mutating structs. The first minute of the session states: &quot;You can use Observable types to power your SwiftUI views&quot;, which sounds like a view model to me. Part of the problem is no one agrees on a VM's responsibility... for me it is preparing data for use so that the view can remain view-only. In Ben Cohen's concurrency code-along, he calls them UI models. That is from someone that without a shred of doubt understands swift's intricacies",0
+[You should not use public clients](https://github.com/spring-projects/spring-authorization-server/issues/297#issue-896744390). See the use of [BFF pattern](https://github.com/ch4mpy/spring-addons/tree/master/samples/tutorials/bff) for SPAs,0
+Her logs startup hazelcast -&gt; https://pastebin.com/W8DcRUee,0
+@muttley91 this looks like IIS config.,0
+@Andrew I hadn't thought about creating an NPM package and distributing it to the subprojects. Have you ever seen an example of this? Will it be possible to customize a component from the parent project to a subproject? Thanks!,0
+Are there any strings other than `Unrated` that can come between the year and `.mkv`?,0
+you could change your ACS URL in your SAML metadata to be a backend URL and the SAML Response from the IdP will go there instead of the front end.,0
+Also you should never use `objdump` on ELF binaries (https://stackoverflow.com/a/8979687/50617). Show the output from `readelf -Wl ...` instead.,0
+"@Albert221 sure, I've updated to the original error. Thanks.",0
+Bro u have not sent the id on onChange handler and how will you get both event and id in same param level with just onChange={handleForm},0
+"Wow, this makes sense... I'm going to try this out pretty soon and will let you know if it works or not. Thank you!",0
+"Ah, of course, wonderful! Thanks for the quick reply, Doug!",0
+"Yeah, I only used placehold.co for my example here. Using real images I created locally, each different. Odd.",0
+"Use `std::atomic&lt;bool&gt; my_array[128]` with `memory_order_relaxed` to get the same semantics as `volatile` (in real compilers that do define the behaviour, which was how pre-C++11 programs could do lock-free code.)  But probably you want `memory_order_release` so readers can sync-with the thread and safely read other results it's written.",0
+See here: https://stackoverflow.com/questions/1334012/cannot-insert-explicit-value-for-identity-column-in-table-table-when-identity,0
+"`length(prob)` must equal `length(x)` in the call to `sample`, but without `sapply` the length of `prob` is `.N`",0
+"@TSCAmerica.com, both of those are correct: `select 1 in (1,2); t` and `select 126 = 126; t`.  The issue is with something Postgres thinks is an array but is not properly formatted as one.",0
+"@user3458271: My example creates what you have shown in your question. And if I do `pivotTable.addColLabel(0);` instead of `pivotTable.addRowLabel(0);` in my example, it results in icecream being the column label.",0
+"It looks just like webex: I tried closing it from the task manager and now ctrl+d works, maybe it did some automatic updating without me realizing it. There's a setting in Webex that you can turn off to resolve this issue. Thank you both so much for helping me understand the problem!",0
+"Maybe you are missing a blank space after FROM and before ', so it should be *FROM '* and not *FROM'*",0
+Unfortunately 7.4 is no longer available on Homebrew — anyone know how else to install this version as I do need it?,0
+[Please do not upload images of code/data/errors when asking a question.](//meta.stackoverflow.com/q/285551),0
+"FYI, using the syntax `SELECT @Variable = @Variable + ... FROM` is a [documented antipattern](//docs.microsoft.com/en-us/sql/t-sql/language-elements/select-local-variable-transact-sql#c-antipattern-use-of-recursive-variable-assignment) and should be avoided; it relies on the data engine processing your data in a row by row order, which there is *no* guarantee of. Instead use string aggregation to achieve the same results. In recent versions of SQL Server that would be by using `STRING_AGG`, however, in older versions you'll need to use `FOR XML PATH` (and `STUFF`) to achieve the same results.",0
+where did `tsconfig-paths/resgister` coming from?,0
+"@TylerH why did you go against the advice in the `model-view-controller` tag and use it anyway? The tag says &quot;For Microsoft ASP.NET MVC, please use [asp.net-mvc] or [asp.net-core-mvc] tag instead.&quot; That tag was fine as it was.",53
+Given the exactness of the timeout I have to ask - you're sure you did 15 *minutes*?,0
+Just out of curiosity... are you trying to create a code/text highlighter? ...In which you want to *skip* some code (or text) that is already highlighted?,0
+`PRINT @sql` is an easy way to troubleshoot dynamic SQL.,0
+@MarioSantini I saw that in the docs but I haven't because I'm not sure how I would change the hasCompleted property. Is there an example anywhere for this? Ideally the completed property would be based on the status of a v-model or variable.,0
+If in addition to `Ted.2012.Unrated.mkv` you also had `Ted.2012.mkv` in your collection then you'd get `Ted (2012).mkv` output twice according to the rules you've shown us so far. Is that desirable?,0
+"Actually I just realized something that now it seems that all Roles lead to the forbidden page. Even if I have a role that is valid, I still get sent to the forbidden page. I thought I tested that but I guess not. So your code seems to always lead me to Forbidden page.",0
+"An equivalent Q&amp;A for C++ is [C++ memory model and race conditions on char arrays](https://stackoverflow.com/q/19903338) - char and bool must each be wide enough for the machine to be able to access without disturbing surrounding elements.  Typically 1 byte.  And re: the OP's concern about hardware doing wider reads/writes: despite misconceptions / FUD, all modern ISAs (except for DEC Alpha) do have safe byte loads/stores, including but not limited to x86: [Can modern x86 hardware not store a single byte to memory?](https://stackoverflow.com/q/46721075)",0
+"If you `PRINT` your SQL, as well, you'll see it contains syntax errors; I wouldn't expect to get the error you get, I'd expect you to get the error *&quot;Msg 102, Level 15, State 1, Line 21 Incorrect syntax near 'ALLSelect'.&quot;*",0
+"Unless there is a better way, I indeed think that's the way to go",0
+please share a sample code,0
+"After battling to understand why startup wasn't being called, I tried this suggestion and it worked perfectly.  Thanks.",0
+"And from [impacket's setup.py file](https://github.com/fortra/impacket/blob/master/setup.py), it is supports python3.6+ versions.",0
+"I am not sure that I understood what you want, but [check this out](https://stackoverflow.com/questions/77712065/how-to-deploy-a-next-js-app-to-cyberpanel/77713025)",0
+Another thing to let you know that i am using laravel version 5.8 so i can not use laravel/sail . So please let me know any other alternative.,0
+"Order seems to matter here. In my first example above, if I reverse the order from largest breakpoint to smallest it works as expected.",0
+I would say this down to how ever `campaign_project_type_enum[] ` is defined and where it is actually used? You need to add that information to your question text.,0
+"Yep, I've already seen that one and it is on no way minimal) Have you checked for differences in the requests (for example via developer console)?",0
+"Thanks for your answer! Yes that surely works! Sadly my application features the in-app use of the hololens camera. When I start the application the MR-capture stops. Same goes for the Live preview mode. Obviously thats intended by microsoft: If an app requests ExclusiveControl access to the photo/video camera, built-in MRC will automatically stop using the photo/video camera so the app's request will succeed. Is there another way of capturing while the camera is already used via the app itself?",0
+"`, @result OUTPUT` will not assign the result set to the variable.",0
+The error indicates that `display_handle` variable is `None`.   And I believe @TimRoberts already explained why so and gave you alternatives.,0
+"If the compiler cannot see that `X extends Y` then you can always use `X &amp; Y` or `Extract&lt;X, Y&gt;` in place of `X`, depending on your needs. See [this version of your code](https://tsplay.dev/wXg8QW) for example. Does that fully address the question? If so I will write up an answer (or find a suitable duplicate target) If not, what am I missing?",0
+"Hello. The screenshot is inside the text that says that, just click it and it will appear. About your other comments, i will take a look at that. Thank you.",0
+This may also be helpful if you want to override some of the functionality of EF https://learn.microsoft.com/en-us/ef/core/modeling/generated-properties?tabs=data-annotations,0
+@RaulA. I don't remember unfortunately,0
+This resolved my issue. Thanks a lot once again for your prompt help!,0
+Can you also give the code you tried?,0
+"This worked for me - I'm not sure what the threshold will be for timing out, but for now it seems to be running without issue.",0
+Can you explain in _much_ more detail what &quot;the integration does not seem to be working as expected&quot; means? Please share screenshots of errors and details of what you expect to be happening. Can you also explain what you're trying to do more generally? Where is the HTTP traffic coming from and where is it going?,51
+"If using MSW, is there any reason why I **wouldn't** want to add this at a global level during tests?",0
+"Wait I don't want to replay changes from main onto Branch B. I want to replay changes from Branch B onto the latest from main, now that main has the changes from A merged into it.",0
+"I still **strongly** recommend not using the [documented antipattern](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/select-local-variable-transact-sql#c-antipattern-use-of-recursive-variable-assignment). As the OP is on 2012, they won't have access to `STRING_AGG`.",0
+"@JVGen Absolutely! The arguments go `arrows(x0, y0, x1, y1, ...)` so just use `x0=2000` and `x1=3000`. I use the function so often that I forgot to mention the arguments. Please see respective edit which should make that more clear. You see, you could obviously also derive these values dynamically from the data for each `i`teration. Best you read the help pages for each new function you learn; unlike user-defined packages, those from base are excellent.",7
+Ah yeah you're right. Thanks for the explanation!,0
+"I'll rewrite this as an answer, so you can accept it :)",0
+"https://stackoverflow.com/a/77788008/1126841 raises the question: do you want to rename the files, or just generate a list of the new file names?",0
+@Ростислав If this resolves the issue you should accept the answer.,0
+How can I fix the import error : ImportError: cannot import name 'ExtraValues' from 'pydantic.config' (C:\Users\bbchs\anaconda3\Lib\site-packages\pydantic\config.cp311-win_amd64.pyd),0
+have you tried using `cv2.open()`? This usually is very helpful when there are thin (relatively) protrusions,0
+"https://en.cppreference.com/w/cpp/language/operator_arithmetic#:~:text=m%20%7C%20(n%20%5E%20o)-,Built%2Din%20bitwise%20logic%20operators,-For%20the%20built and https://en.cppreference.com/w/cpp/language/usual_arithmetic_conversions. TLDR: unsigned short arguments of binary bitwise operators are &quot;promoted&quot; to int...",0
+"I think this functionality isn't available, I tried searching for it some time back and also couldn't find it :/",0
+"Show the full error traceback.  Which line of your code is raising it?  Then check the dataframe `dtypes`, working back to the freshly loaded ones if necessary.  Pandas uses object dtype for strings and fill values like None.",0
+The above check is giving me True. I have admin rights.,0
+"If using MSW, is there any reason why I **wouldn't** want to add this at a global level during tests?",0
+"In my use-case I needed fully qualified table names for the indices and a DISTINCT in the GROUP_CONCAT to clean things up.  So the first query became: `select concat(&quot;CREATE UNIQUE INDEX &quot;,INDEX_NAME ,&quot; ON &quot;, TABLE_SCHEMA, &quot;.&quot;, TABLE_NAME,&quot; (&quot;,group_concat(DISTINCT COLUMN_NAME ORDER BY SEQ_IN_INDEX),&quot;);&quot;) from information_schema.STATISTICS where INDEX_NAME!='PRIMARY' and NON_UNIQUE=0 and TABLE_SCHEMA &lt;&gt;mysql' group by TABLE_NAME,INDEX_NAME order by TABLE_NAME,INDEX_NAME;`",0
+Do you per chance also know how to color a specific column? I couldnt find any info on that. Asked that question before but couldnt get an answer:&#xA;https://stackoverflow.com/questions/77760119/tkinter-pandas-dataframe-how-to-color-specific-columns,0
+"Most likely your previous search was cached, making the second &quot;improved&quot; one faster. Test again but restart Windows between each test to avoid falling for false statistics.",0
+"Fix the design and don't store delimited data. Then the solution is a simple `DELETE`: `DELETE FROM dbo.YourTable WHERE YourNormalisedColumn IN (1,2);`",0
+I added that code to existing BootstrapConfig and that did not make a difference. Still see null values in json response. One thing I forgot to mention before is that this issue only happens in our DEV environments and not in PROD.,0
+"This answer would be preferable and is what I initially tried, but unfortunately Office doesn't introduce this feature until after 2019.",0
+Unregistering the service worker makes it unable to receive any messages at all,0
+I installed - pip install &quot;codeinterpreterapi[all]&quot; as per the documentation,0
+"It is not clear what are you trying to do. What is `result`?, the response to what?, can you add an example of the json to the question?.",0
+Thank you. Can I use that same sed string to rename the files?,0
+"Hey @JoséRamírez Indeed, recently I read your article on hashnode and it cleared most of my queries. However, there are two doubts that I still have. 1. I'm unable to access the JS bundle of my application at a certain path(`abc/xyz.js`) when I run `yarn start` directly, but if I build the application and then start the server I'm able to see the output, does this mean I'll have to build the application every time I make changes to the application? 2. When I override the source of a mife in import map overrides, I get `LOAD ERROR` without any errors thrown in the console. (1/2)",0
+"@OXO If you do not plan to use it anymore, why not?",0
+"This seems to work for me, need to test once the serve is up :)",0
+Any way to make it show for android?,0
+Translating the program should make it way easier to understand ;),0
+"Since none of the characters you're testing for in `index($0,&quot;_&amp;_C-alpha ]&quot;)` have a special meaning in a regexp (`]` is only a regexp metachar if preceded by an unescaped `[`) you could just do `/_&amp;_C-alpha ]/,0` instead. Both approaches assume you don't need to test for `[ something` at the front of course.",0
+"@BrysonScales if the duplicated launch screen is an image, for example, then it would simply be added to the top-most page of the AppShell, the page that the app launches to. If the duplicated launch screen is a view-controller, for example, then it could be its own page in the shell, like any other page, that is the top-most page. From how you describe your app, I think the duplicate launch screen should be an image, or a child view, that is simply an object within the top-most page of the shell (the page that the app launches to). This page would then be responsible for removing it.",0
+"Thanks, @samsupertaco, for sharing your thoughts. I am not sure if I am following you here. &quot;You would need to then separately call the other function for it to run.&quot; Can you be a little more specific about this? I did call `fetch_webpage_content()` in `process_webpage()`. Are you suggesting I assign the result to a variable and then return that variable? I have tried that. The script will hang on the line of the assignment. &quot;It is instead not scraping all of the data that you think it is.&quot; If not use `requests.text`, what else could I use to get the content of a page as a string?",0
+Use `CInt(test)` or `CLng(test)`,0
+I have a tool that automates some of mocapping -&gt; https://github.com/mochan-b/mujoco_mocapper,0
+"This still doesnt work for us, have the association files on every domain",0
+Welcome to StackOverflow community. Why not just filter `customers` list first before you iterate over it? Check this lamba expression for filtering: https://stackoverflow.com/a/41524033/2976876,0
+"Because this is the source code proposed by others, its scale is very large. If I want to use absolute import, it will interfere with too many packages. It can only use relative import.",0
+spring:&#xA;  codec:&#xA;    max-in-memory-size: 10MB,0
+"`settings.json` and `launch.json` are different files for different purposes. And yes, `launch.json` exists on macOS too, it is just not created out of the blue, it is created when a run configuration is created.",0
+"@ThomA I'm with you, but honestly, over the years, I've never experienced an issue.",0
+Original Source is down,0
+Have you pip installed `requests` to the Python environment you are working in? In other words can you open the python or ipython CLI(outside Postgres) and import `requests`?,0
+Does this answer your question? [ASP/VBScript - Int() vs CInt()](https://stackoverflow.com/questions/20675/asp-vbscript-int-vs-cint),0
+I would agree with @ThomA here.  I also see storing delimited data is a sql anti-pattern on design.,0
+`number_generate` remembers what `numbers` was from the previous call.,0
+"you can check if your theMethodInTheService simply by placing a breakpoint in your IDE, and debugging your test.",0
+"All of my attempts so far have been in Excel, which is what I'd prefer, but if I have to use Python or SQL I'm fine with that.",0
+"Thanks for sharing the PBIX, makes it much easier to help. See updated fresh answer above.",0
+"ah you are right, the ~ produced this issue ! Thank you so much !",0
+"The v-stepper with props has smooth transitions when I test, although it does look a little weird with the steps transitioning past each other (one transitions out from left to right while the next transitions right to left).  It's probably because you use multiple `v-stepper-window` elements. You're meant to use one window to wrap **all** window-items.  See the [anatomy](https://vuetifyjs.com/en/components/steppers/#anatomy) section of the docs",0
+"On further debugging the issue by toggling the `Pause on uncaught/caught expression` I noticed errors like `uncaught reference error, require is not defined`, is this because the dependencies of my project are using `commonjs`, how do I fix this issue? (2/2)",0
+I tried to do this: https://github.com/quantuminformation/drizzle-sqlite-recurring-events/blob/main/test/test-constants.ts#L36,0
+IMAGE TAG=xxxxxxxxxxxx.dkr.ecr.us-west-1.amazonaws.com/config-server/config-server:1.0.23&#xA;BUILD: #15 naming to xxxxxxxxxxxx.dkr.ecr.us-west-1.amazonaws.com/config-server/config-server:1.0.23 done                                                                                      The push refers to repository [xxxxxxxxxxxx.dkr.ecr.us-west-1.amazonaws.com/config-server/config-server]  NOTE: us-west-1,0
+"@PeterCordes Thank you very very much, I will try your suggestion this weekend. It is pretty complex to write such low-level code.",0
+Look at the Postgres log to see what it says.,0
+"That would also have worked for me, as I can find process I’d of the executor I want to monitor as far as jfr file is separate for each executor. But it didn’t work for me the options I used is- -XX:StartFlightRecording=delay=10s,duration=30m,filename=/my/dir/",0
+Thank you! This helps: `union is U &amp;`,0
+I'm not familiar with [`lazyImports: true`](https://www.npmjs.com/package/babel-preset-expo/v/9.0.0#lazyimports) but my guess is that you should be careful with it as you may just be rolling the issue down the line. I suspect some dependency of yours is calling the `TextDecoder` API at some point and lazily evaluating it pushes the error from init to when the API is actually used. I think you should consider adding the polyfill as suggested [above](https://stackoverflow.com/a/76791074/2278329) to avoid issues.,0
+"@user4815162342 `bnum` only seems to cover power of 2 byte integers larger than what's provided by default (`U256`, `U512`, …), not arbitrary bit wide ones like OP asks for.",0
+that looked promising.  I tried it out and it's missing some of the properties that are contained on the event like `event.value`.  Welcome to SO!!,0
+"I isolated using generalized queryset class because I want to filter the authorized users using get_queryset(). Thanks for your help, and that doesn't solve the problem either.",0
+"I think I may go this route, though I'll have to create the dataframe from my imported SQL data rather that creating a manual list since the data is dynamic.",0
+why is line_number an integer and line is a string? Is it becouse of the enumerate function or is it a build-in thing for the for loop?,0
+"Would you mind format your code put three ``` instead of one (+ new line), and maybe break up/space the text a little?",0
+"What you mean with extract?, you want to get the information in some format or just view on the map the Uzbekistan data?. Can you add a link to `@arcgis/core quasar project`?.",0
+"You need to create a new instance of `Pessoa` and put it in the appropriate location *(index)*. You have an array of a size, but it's empty.",0
+"Could you provide some context around what 'the process is too long means.  Is it the time taken to run the code, is it the number of lines of code.",0
+@Basj You might want to re-read the first sentence in the question. They key word being &quot;or&quot;,0
+What have your tried so far to find the longest substring? Note that you should include the problem in your question as context will be lost if the link goes down.,0
+"The straightforward way to reproduce the error is to open the notebook in colab, that's why I left the [link](https://github.com/sudarshan-koirala/youtube-stuffs/blob/main/llamaindex/llamaindex_Semi_Structured_RAG.ipynb)",0
+"hi , its like 5pixels from image, left side to right side, so its a 5pixel width strip of image (left part). that strip need to expand to the parent div's left side border, while other part(right part of image after 5px from left) should remain unchanged (without resize) . thank you",0
+@DBS Surely it got to be a bug. Where can I report this bug?,0
+"@Keith OP says and i quote &quot;I'm attempting to log the received data using console.log('req', req.body);, but the output shows an empty object {}.&quot; how is that refering to res.json() exactly?",0
+"I have created a minimal, reproducible example on CodeSandbox. Now, please help me solve this issue. you find the link above",0
+"&quot;it doesn't work&quot; is hard to help with. Is it clear what the query in my answer does? If so, does it match with your data model? If so and you still don't get the result you expect, can you show an example of a document (as a screenshot from the Firestore console) that you'd expect to be returned that is not showing up?",0
+"Yeah, just spotted that as I posted.. :)",0
+It seems like ` &quot;@tanstack/react-router&quot;: &quot;^1.2.2&quot;` version doesn't export `MakeLinkOptions` anymore,0
+It's with him talking about POSTMAN that threw me.,0
+"mode: 'no-cors', helped me",0
+Thank you for taking the time to answer the question. I am still unclear why the handler could not just use `hlv/hlvx` instructions   to accomplish this when hgatp.MODE=BARE.,0
+@user2357112 My bad ! I didn't know this EAFP idiom existed ! I've been doing Python since a long time and I never saw this. That's crazy...,0
+"@Luuk the script would run from the server, so it would download the file on to my server diskspace. From there I would also run the cronjob. I know seems like a big detour, but I can't find another way to make it work",0
+"It's for building text strings. While that's not to say there couldn't be value in some kind of analysis, it's probably more commonly used to generate human-readable output. It's a convenience that it will convert numeric types automatically.",0
+Gonna test it. Thx!,0
+"It's unbelievable, PyCharm is so packed with stuff and then they miss this little thing",0
+"Yes, just browse the file line by line and run `mv &quot;$line&quot; &quot;$(echo $line | sed -E 's/^(.*)\.([0-9]{4}).*\.mkv$/\1 (\2).mkv/')&quot;`. Or, *if your input file is safe* (namely, names do not contain backslashes or double quotes), you could do something like this: `sed -E 's/^(.*)\.([0-9]{4}).*\.mkv$/mv &quot;\0&quot; &quot;\1 (\2).mkv&quot;/' films.txt | bash`",0
+"After you define `d` and `u`, then use `data &lt;- read.csv(unz(d$datapath, u$Name))` for a single file. If you're accepting multiple files then `purrr::map(u$Name, ~ read.csv(unz(d$datapath, .x)))`. (Note that I don't know how well `renderTable` will deal with a list of files ... it should work for one, I haven't tested it with multiple frames in `files()`.) If that doesn't work, please [edit] your question to update based on your changes, then @-ping me and we'll work through any issues. Hope it works!",0
+"Commenting out `volumes` did allow me to run the application in the container but when loading it, the next auth/oauth flow I have fails because it can't find a connection to a sqlite db containing users. Error: Error occurred during query execution:&#xA;web-1  | ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(SqliteError { extended_code: 8, message: Some(&quot;attempt to write a readonly database&quot;) }), transient: false })",0
+"Indeed they are, v1/payments is obsolete.",0
+See: https://github.com/containers/podman/discussions/21193,0
+with the Perl version of rename you could do: `rename 's/.*\.\d{4}\.\K.*\././' *.mkv`. With pure bash: `for f in *.mkv; do [[ $f =~ .*\.[0-9]{4}\. ]] &amp;&amp; mv -i &quot;$f&quot; &quot;${BASH_REMATCH}mkv&quot;; fi; done`,0
+"As you say, that does **not** express _&quot;does not eventually trigger an error&quot;_ - Cypress will wait for a condition that's initially false to become true, but cannot wait until a condition that's true is... still true (how long for, even? If you could say &quot;hasn't appeared within 2 seconds&quot; what if it took 2.1 - and your tests _always_ take 2s longer).",0
+"Related: https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels / [What is the minimum supported SSE flag that can be enabled on macOS?](https://stackoverflow.com/q/45917280) - note the possibility to ship an `x86_64h` slice, which is `-march=x86-64-v3` (AVX2+FMA+BMI2 = Haswell baseline).  So even if you discover you might need a fallback for some hardware you want to support, newer hardware can use the faster binary at just a cost in file size.",0
+"@BarryTNU As HardCode said, yes, you do need to supply an argument for each variable. You can, however, repeat the variables and/or place them out of order. So if the template string was &quot;Boat '{0}' won, congrats to '{0}'&quot; you only have to specify an argument for {0} once, e.g. String.Format(messageTemplate, &quot;Swifty McBoatFace&quot;) and it will replace both instances of {0} with the supplied argument.",0
+Bug Report - The code sample here demonstrates that changing only 'WITH INLINE = ON/OFF' changes the runtime behavior.&#xA;[BUG - inline function runtime behavior is different than non-inline behavior with same code and same inputs.](https://feedback.azure.com/d365community/idea/d6470086-0aaf-ee11-92bc-0022484c4141),0
+"It looks like you'll want `maptools`, now retired, that has function `sp2WB`, [installing retired maptools](https://stackoverflow.com/questions/77511849/i-have-obtained-some-error-trying-to-install-maptools-in-rstudio).",0
+"Since we're dealing with a data frame, `names` instead of `colnames` should be sufficient.",0
+"it didn't work. Here's an image with the changes: https://imgur.com/a/b3LJbcQ&#xA;With the change I'm not even able to select Project 1 because although it toggles an inner sidebar when I hover over &quot;Projects&quot;, that inner sidebar disappears when I try to click any of the items.",0
+Thanks! Looks like all smaller integral types get promoted to int. I did not know that. Thanks for the answer.,0
+Thanks that answered my question,0
+"hard to see, but it looks like the results of the matching are the same. So ORB detection/decsription and matching should be fine. Afair in findHomography you can get a mask of the inlier keypoints. Can you draw the inlier keypoints? They are the ones used to compute the homography and if there are wrong matches in the inliers, your homography will be corrupted.",0
+"Add a condition to your `awk` command, so it executes only if the name doesn't match, &quot;swallowing&quot; the one to be saved.",0
+"@LãNgọcHải Thanks for the comment. The addChannel function is working, rendering a new channel object in my timeline, but I agree the this.child=ref parameter is the root cause of my issues, since the channels are defined dynamically. Any suggestions to test? Thanks!",0
+Here is an example not using reflection: https://github.com/Azure/azure-functions-dotnet-worker/blob/16a995deb65b44873cd3a56b5e6d4d3c22d64b7d/samples/Configuration/Program.cs#L58C124-L58C124,0
+To add to r2evans' suggestion:   write a little loop involving `grep` to identify the row index of every line that starts with &quot;DATA INSTRUMENT&quot; . Then  remove rows `j` thru `j+6`,0
+thanks - it initially did not work as expected (I lost all my UDFs when I set those attributes to True). But I tried just the first one and it seems to have the expected result!,0
+"I see your point now: a special character put in the string using the wrong encoding. That is a hell of a possibility, since I know the ones involved with the other side of the server :D",0
+Looks like you need to set the correct postman settings when sending JSON. See [this answer](https://stackoverflow.com/a/38436905/21972629).,0
+"Can't find something similar for the GroupChat, though? Is there one? I am aware of groupchat.messages but these populate AFTER the discussion has happened, it seems",0
+"Ahh okay, yeah I'm not using IIS, I'm using Kestrel",0
+Hey @LinFelix unfortunately I can’t for obvious reasons.,0
+"The default client is the same of: (AmazonS3)standard().build(); That does not use credencial! And how to acess this? You will access if you are in the same cluster, EXAMPLE: If you have an EC2 in the same Cluster of a AWS S3. Understand? But Localhost you will not access...",0
+Why are you using `.husky/pre-commit` file and `pre-commit` attribute in `package.json? Aren't they the same?,0
+thanks this works on earlier versions! There is one small bug where sometimes the scrolling doesn't change the category or changes the to previous one by mistake. It tends to happen if you scroll slower but has happened when scrolled fast once I think. Not a big issue but have you got any ideas on what's causing that behaviour? It seems to be an issue on the first 4 category buttons (Red to Yellow),0
+Does this help? See first answer https://stackoverflow.com/questions/36522313/large-number-of-errors-during-gradle-build-after-upgrading-to-android-studio-2-0,0
+"basically these both AWK and SED solutions does not work for my file. Othervise, my sed sollution with your comment works OK: sed -i -e '/ *_&amp;_C-alpha \]/p' -e '1,/ *_&amp;_C-alpha \]/d' file",0
+"Does `padding=(0,0)` work?",0
+"Thank you. About the ArrayLists. In this project, teacher said we could only use ArrayLists if it was for removing, adding or consulting something on a list. And by the way, do you have any idea, why is the program ignoring the name ?? It just goes onto the nextline without letting the user introduce it.",0
+"Thanks for your time to help me! I was hoping I could bypass this error using the suggestion from IBM, but I'm losing hope... Anyway, thanks!",0
+I'm sure I will have some filenames that don't play nice like 2001: A Space Odyssey.1968. There may be other things after the date and before the file extension such as directors cut or extended version etc.,0
+"But `list_musician` is a different word. Use `list_musician = list(musician)`, don't call `musician_blanks()` again.",0
+Great! Please see the linked q/a above for more information. The basic situation is that TS can't really analyze generic conditional types for assignability very well so you might need to &quot;convince&quot; it to accept the output as a narrowing with something like `&amp;` or `Extract`.,0
+"@mcendu There's no specific CSS to make it a sidebar but it's not on a default location. The div below the header is taking care of placing it in the middle of the page. Also, the library does exist and was imported with no errors to my Vue project.",0
+"Yep, after years of using PyCharm daily I just discovered a couple of new functionalities I really needed this last week. At least the official documentation has gotten a lot better, there used to be plenty of features that were &quot;under-documented&quot;. (So this feature might be in there, somewhere...)",0
+"True. However in situations like this, I find `colnames` a bit more intuitive to use than `names`.",0
+"That is not the issue.  It is Workbook and Workbooks on purpose.  First one is that I am creating a single Workbook object and the second is because I am looking through the collection of Workbooks on that Application.  Thanks for the thought though, I wish it was that simple.",0
+"@BenVoigt Sure, one could handle that case on the calling side, but the general rule for &quot;is this string a number&quot; includes that test.",0
+"It seems like you want a `Vec&lt;WebSocketStream&lt;...&gt;&gt;`, if so just use a for loop. Convert `IpAddr` to a `Uri`",0
+I figured out solution without condition. `previous_month = (datetime.now().month - 2) % 12 + 1`,0
+All other observations aside: there's a difference between the two finds. In groovy the second `-not` path is missing a trailing slash.,0
+"@smithnblack hmm.. isn't that the same as:&#xA;for customer in customers: &#xA;  &#xA;  if customer[&quot;id&quot;] is not None:&#xA;    filtered_customers.append(customer)&#xA;&#xA;&#xA;sorry, i am new to this",0
+there are no attachment tag in your Junit file,0
+Doesn't commands in `.husky/pre-commit` also need the `&amp;&amp;` to prevent shadowing the previous commands escape codes?,0
+"[Please do not upload images of code/data/errors.](//meta.stackoverflow.com/q/285551) Also, check tips for fomatting posts [here](//stackoverflow.com/help/formatting)",0
+Seems to only work with `kaleido==0.1.0.post1`,0
+"priority isn't the right way to go in many cases.   imagine the main thread blocks on a small i/o task, and then a low priority thread opens up some horrible mutex blocking db handle and performs a long-running transaction.  too bad o/s scheduling doesn't also include &quot;i/o suspend/resume&quot;.  it's really just the cpu.",0
+I would help us greatly if you show the output of `VBoxManage list vms` and `VBoxManage list runningvms`,0
+"@cafce25 Hmm. It's a bit better than that, e.g. `BIntD8&lt;3&gt;` gives you a 24-bit integer, and things like `U256` and `U512` are just aliases. But it's true that you can't get things like 7-bit integers - a byte is the lowest supported granularity,",0
+"The duplicate link doesn't quite cover it, since your expression is expected to result in a whole number. I assume the float value is internally something like 14832.99999999999, so Int and Fix return 14832 because they truncate.",0
+"hey OP, were you able to resolve this? I'm facing the same error",0
+@ArpitJain And how do i go about creating the documents? Thanks for your help!,0
+Why do you try to do that? Why not simply making a supplemental module  instead of using configuration etc.. violation of convention over configuration.,0
+"See the other answers to the linked question, they show how to implement similar things before window functions.",0
+When you say *&quot;miss this little thing&quot;* the fact that Python is constantly changing (with half of the typing module being deprecated) for me explains a lot of the feature instability we've seen in PyCharm. The devs have to implement new language features constantly only to deprecate them a few minor versions latter.,0
+"Also, what do you mean with the first image where the box is pink? Because this is not a rectangle, this is a trapezoid...",0
+1. it's not clear what you mean by &quot;TS data&quot; and if it's a factor in your question,0
+"For anyone doing automation, I had to also add `--no-edit` to the commit step otherwise it would wait for an editor to close",0
+"Hmmm, tried that and I'm getting `invalid description argument.` Do I still use `u &lt;- unzip(d$datapath, list=TRUE)`?",0
+"I tried your code, didnt worked for me, tried executing it into an about:blank site and copy pasting, didnt worked, also tried executing on instagram dm page, doesnt work, did you tried on instagram webpage?",0
+"@user2357112, yes, you make a valid point. Unfortunately, I don't understand the library I'm using very well and I can't determine if the request is pending or not. At least I know that it will return `NULL` if there is no new data. All I have is an [example](https://github.com/tdlib/td/blob/master/example/python/tdjson_example.py) from the authors of this library, which I'm sticking to.",58
+"Can you, for 100% clarity, post the browser URL when you try to connect?",0
+main code : &#xA;#include &lt;stdio.h&gt;&#xA;#include &lt;stdlib.h&gt;&#xA;#include &lt;PIC10F200.h&gt;&#xA;&#xA;// CONFIG&#xA;#pragma config WDTE = OFF&#xA;#pragma config CP = OFF&#xA;#pragma config MCLRE = OFF  &#xA;&#xA;// #pragma config statements should precede project file includes.&#xA;// Use project enums instead of #define for ON and OFF.&#xA;&#xA;#include &lt;xc.h&gt;&#xA;#define _XTAL_FREQ 4000000&#xA;void main() &#xA;{&#xA;OPTION = 0b11011111;&#xA;TRISGPIO = 0b00000010;&#xA;GPIO = 0b00000000;&#xA;    while(1) {&#xA;   if(GP1 == '1') &#xA;        {&#xA; GP0 = '0'; // Turn off the LED&#xA;        } &#xA;        else &#xA;        {&#xA; GP0 = '1'; // Turn on the LED}}},0
+"thanks, it appears that my question is a replicate of the one in the link. HOWEVER, it will still generate an error that is &quot;Exception thrown in awaitResult: [INVALID_PANDAS_UDF_PLACEMENT] The group aggregate pandas UDF `NanMean` cannot be invoked together with as other, non-pandas aggregate functions.&quot;&#xA;&#xA;That means, it is possible to register the udf and use it in the agg under two conditions 1) you do not use together with another pandas function (so only other udfs) 2) you must have a cluster without a Shared access mode (that's my other issue and is only applicable in databricks)",0
+The Native Bash solution is quite elegant. I like it.,0
+"Note that there are other things that a `.bash_profile` might plausibly contain that could be equally or more sensitive than the key file location.  For example, if in it you add directories to your `PATH` then that provides information about software installed on your computer and its location.",0
+@yoduh You were absolutely correct. That is why the transition wasn't working correctly!! Thank you! I will leave this up in case someone has the ability to add syntax for the template/slot for the header though and I've updated my question with your fix.,0
+It is often a bad idea to create additional JARs. What are these JARs for?,0
+"While asking a question, you need to provide a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example):&#xA;(1) DDL and sample data population, i.e. CREATE table(s) plus INSERT T-SQL statements. &#xA;(2) What you need to do, i.e. logic and your code attempt implementation of it in T-SQL. &#xA;(3) Desired output, based on the sample data in the #1 above.&#xA;(4) Your SQL Server version (SELECT @@version;).",40
+"I've often wondered in what situations either of them fail, since they both work equally well with frames and matrices (the two most-likely confuse-able objects, in my experience). The only &quot;oops&quot; I can think of would be `list(.)`, where `colnames` will not work. This can be good (i.e., quick-fail if the object is not frame-like), or this can be unnecessarily strict (e.g., `lapply(..)` on the frame returns a `list`). As always, &quot;it depends&quot;, but it's an interesting thing to me. (I don't stay up thinking about it, though.)",0
+"Thank you @lastchance! You were right, my code was intended to plot the JONSWAP wave spectrum, and I uploaded my actual formula as you suggested. Your suggestion using np.where() really helped.",0
+It is arbitrary example code with arbitrary buffer sizes that you are supposed to &quot;carefully specify&quot;. It will throw std::bad_alloc if the provided static sizes are insufficient for actual program. But if you specify these correctly then your program can deal with tons of little jsons efficiently.,0
+`These are the dependencies that are used by one of our application. `  and how does the app get those jars? How to build your project?,0
+fascinating question,0
+"@JoséFilipeSilva sorry but I am unable to understand your question, could you please explain (also accept the answer if it works)",0
+"I will note that the best way to implement this is not how you're doing it now, but rather by instructing `serde` to deserialize them correctly from the beginning.",0
+"OK, and how do you suppress dialogs inside an action? Specialy for filters with dialog prompts? Some code for me?",0
+"`temp6` is typo, right? It should be `temp1`. Anyway, status of &quot;not feasible&quot; suggests that the problem doesn't have any solutions satisfying your constraints.",0
+"@Corralien, yes, I've been thinking about it. I'll try to learn more about it and will write back if this solution solves the problem.",0
+or: `rename 's/.*\K\.(\d{4})\..*\./ ($1)./' *.mkv` / `for f in *.mkv; do [[ $f =~ (.*)\.([0-9]{4})\. ]] &amp;&amp; echo mv -i &quot;$f&quot; &quot;${BASH_REMATCH[1]} (${BASH_REMATCH[2]}).mkv&quot;; done`,0
+"Map&lt;String, String&gt; map = new HashMap&lt;String, String&gt;() {{&#xA;    put(&quot;A&quot;, &quot;32&quot;);&#xA;    put(&quot;C&quot;, &quot;34&quot;);&#xA;    put(&quot;T&quot;, &quot;53&quot;);&#xA;}};  works",0
+You'll probably find the explanation [here](https://softwareengineering.stackexchange.com/questions/101163/what-causes-floating-point-rounding-errors).,0
+Updating system GLIBC is a really bad idea in general. You should read this https://stackoverflow.com/a/851229/50617,0
+"You also seem to be using wildly overcomplicated types for a very simple situation. `if (&quot;a&quot; in a)` works just fine out of the box; you don’t need `isUnionVariant` at all. Even within `isUnionVariant`, you keep checking for `K extends string`, which may be necessary depending on your use case but you don’t need to do it so many times, and then after having done that you use `\`${K}\`` which is completely redundant when you’ve already checked `K extends string`. Would an answer that delves into these issues be useful to you?",0
+Its also worth noting that the equivalent CLI command seems to work without issue using the `AWS-RunShellScript` document:&#xA;`&#xA;aws ssm send-command \                                                                                                   &#xA;    --instance-ids &quot;MY_INSTANCE_ID&quot; \&#xA;    --document-name &quot;AWS-RunShellScript&quot; \&#xA;    --comment &quot;IP config&quot; \&#xA;    --parameters commands=ifconfig \&#xA;    --output text&#xA;`,0
+"Also, if the user settings prefer a “24 hour” time format (e.g., “14:00” rather than “2:00 pm”), `timeStyle` will honor that setting, too.",0
+"When I run the program, and I choose the option 1 from the menu, it will ask the user to introduce 3 parameters about himself, but for some reason, after I insert the 1st one, it skips the 2nd which is the name, and goes straight to the 3rd.",0
+"size_t memspn(void const *dest, size_t destlen, void const *src, size_t srclen) {&#xA;    size_t n = 0;&#xA;    while (n &lt; destlen &amp;&amp; memchr(src, ((char *)dest)[n], srclen)) ++n;&#xA;    return n;&#xA;}",92
+"Yes. I just tested it with your code above and it works without error. Are you certain that the `zip` file doesn't include files you don't want to import? Perhaps add a `browser()` before your `data &lt;- ...` line, and take a look at `u` to make sure that it doesn't have something else, such as files you don't want, or directories you cannot process.",0
+"It also happens to me. If happens, you can just need to read the card again until it works",0
+2024 update:  `pandas.Panel` is [deprecated](https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.Panel.html) `pandas.MultiIndex` is most likely the better choice today.,0
+"Sometimes you cannot influence the command line, but you _can_ control the environment.",0
+"Almost certainly the result is the same. The JIT will place variables either on the stack or in a register, and entirely stack-bound objects (such as the second option) will be the same. The differences will be so minor as to be negligible except in exceedingly high performance code.",0
+The problem is definitely in the `synchronize` module. There's an [open PR](https://github.com/ansible-collections/ansible.posix/pull/421) which got a bit of attention again yesterday and should hopefully make it to the next release.,0
+"OK so I have to create a txt file of the films directory, then use the mv &quot;$line&quot;... on the text file? Sorry. I did not state earlier that I wanted to rename the filenames in a single large folder of filenames.",0
+"I guess it's the number of lines. It says : when compiled, the code for a procedure can't exceed 64K.",0
+"This tool: https://www.prometheus.io/webtools/alerting/routing-tree-editor/, shows alerts properly addressed. Please double check alertnames in use. Also, [`match_re` is deprecated](https://prometheus.io/docs/alerting/latest/configuration/#route); consider using `matchers` instead.",21
+Disabling SSL verification seems like a really really bad idea.,0
+"@siwa86: The Epson LX350 is a dot matrix printer. If one prints the receipt, one sees that it's rather small - it was designed to print to a thermal receipt printer such as [these](https://www.google.com/search?q=zebra+thermal+receipt+printer).",0
+Do I understand correctly that performing &quot;find usages&quot; on a type (when the caret is on the type name) is not suitable for you? Could you please explain why? And what behavior would you like to see in this case?,0
+"Sorry, there was a problem with the automatic formatting of the last paragraph. I didn't check it.",0
+"@AxelDonath Thank you for taking the time to read my question, I've reuploaded my code with the original formula. I've gotten a solution with np.where() before I reuploaded it, which was what I was looking for.",0
+"What does &quot;didn't work&quot; mean - error message, wrong result, nothing happens? Does the procedure run? Maybe shouldn't even be doing this at all. Calculate stock levels when needed instead of saving balance. Review http://allenbrowne.com/AppInventory.html",0
+"@caeus, `com.domain` is the *group* defined in project2's build.gradle",0
+"int value: 35, which is YUV_420_888",0
+"I found this, don't know if related, but for me 1.6 alpha brought just a different exception :D&#xA;&#xA;https://issuetracker.google.com/issues/303904810",0
+"And finally, questions about configuration are offtopic for SO. But this question might be ontopic for [su].",0
+I have added comments to explain a code.,0
+At least it would make sense to do it syntactically correct: Drop the leading `$`. Also think whether you need it as shell variable or as environment variable.,0
+"As you can see in my answer both solutions work for the sample input you provided so if they don't work for your real files then your real files must not look like the example you provided. Doing `sed -i -e '/ *_&amp;_C-alpha ]/p' -e '1,/ *_&amp;_C-alpha ]/d' file` doesn't make sense - you're duplicating the delimiter line and then deleting the duplicate and using the same regexp twice.",0
+"@SaroKhan Try with JupyterLab as it was mentioned in the documentation :&#xA;`If you want to use r5py in a notebook environment, install JupyterLab `",0
+"Thanks for the comments. I solved it by just moving the code outside the class, and that makes sense, even though I would like to have it inside for tidiness.",0
+"Note that on platforms where `sizeof(short) == sizeof(int)`, the `unsigned short` does not get promoted to `int`, it gets promoted to `unsigned int`.",0
+"My guess: you are calling `normal_address(.)` but not storing its return value. R doesn't normally work using &quot;referential semantics&quot;, which would make the change in-place. R normally uses &quot;functional semantics&quot; which means that it doesn't change anything in-place, requiring you to explicitly overwrite, such as `df$Address &lt;- normal_address(df$Address, abbs=usps_street)`.",0
+"Hello pmf! If you have some time, could you give me a code example with the exception of the vm named &quot;SaveThisOne&quot;?",0
+@user19077881 Thank you for taking the time to read my question! Its definitely less clunky without using a loop.,0
+@user6781 you're welcome!,0
+"Yea, I will try a cleaner code to find the reason. My project is getting huge.",0
+"HI @jdweng . This is in the XAML editor in Visual Studio, not when its being run. It actually shows fine when its run, I just cant see the form in the designer.  I've also cleared out a lot of code to concentrate on the issue I am having.",0
+"Sure, use a different envelope for each signer.",0
+"@JohnCappelletti, the problem with this technique is that it's execution plan dependent and an accident waiting to happen (most commonly occurs with `ORDER BY`). &quot;just because it works, doesn't mean it's right&quot;.",0
+This is going to be a lot more complex if you want to store payment method details in the platform and confirm payment on the connected account sadly. You'll want to read https://stripe.com/docs/payments/payment-methods/connect#cloning-payment-methods but StackOverflow isn't really the place to get help for this. Talk to Stripe's support team instead,0
+"@someApp: Wait, that library is *already* non-blocking. Also, trying to have multiple calls to `td_receive` running at the same time is specifically documented as unsafe.",0
+whatever SQLite3 returns won't make it after \SQLite3Result $results,0
+"If it's not a requirement to use HTML, CSS, and JavaScript, then the following may be of interest: https://stackoverflow.com/a/71562125/10024425",0
+"Um...and I feel embarrassed to ask this again, but... if &quot;tmp1&quot; were variable as: `perl -i -nle &quot;print if !/${STRING}/&quot; $FILENAME` whereas `${STRING}` is what I'm changing with file `$FILENAME`, what would `$STRING` be within the perl one-liner?",0
+"@Stewart, I think `is` is supported in all versions, probably the `is` with an additional variable name binding (e.g. `linqNode is IXmlLineInfo linqLineInfo`) is only available in newer C# versions. But it seems you don't need it anyway for your access to the line info.",0
+"@RafaelTics I don't know what's the output of VBoxManage, and what exactly is in column 2 (or the other columns), but my suggestion went something along the lines of `awk '$2 != &quot;SaveThisOne&quot; {print $2;}'`",0
+"Hi @iamabhaykmr, did you have to create the folders var/run/docker.sock also?",0
+"Welcome to Stack Overflow. Please edit the question to include a [*&quot;Minimal, Reproducible, Example.&quot;*](https://stackoverflow.com/help/minimal-reproducible-example). Also, Please edit the question to include any necessary source code, data, and error messages as text. Consider [the &quot;needs debugging details&quot; guideline](https://meta.stackoverflow.com/a/417481).",72
+I have updated the text for your info. THANK YOU SO MUCH!,0
+What are the possible types for keys?,0
+"&quot;It looks like the pdf-lib still has a number of teething problems...&quot;, yeah that what I think.&#xA;&quot;Or is this a non-working next try? In that case it should be added to the question instead of being posted as an answer&quot;, it's because the number of characters, i couldn't added it in the question.&#xA;&quot; I just tested the PDF with Adobe Acrobat and it doesn't even open. The reason is simple: It is a known quirk of Adobe Acrobat that it requires the document catalog object not to be in an object stream but in your file it is.&quot;, i'll see about this&#xA;My objectif is to encrypt clients pdf in client-side.",0
+you can go settings --&gt; Features --&gt; Terminal ---&gt; Integrated.cwd to specify your path.  You may check it here too https://youtu.be/M2_v8eTQul4?si=Tfr7VbK5Tzt8wv8T,0
+"@Peter-ReinstateMonica: I mean it should be the first statement in `isParam` (early return without calling `strtol`), not that it needs to move to the caller.",0
+"@user2407038, the `wss://localhost:433` may not have been the best `Uri` but this should be external, not local. I've provided a different `Uri` I connect to. I want to have `n` external streams bound to `n` local IPs.",0
+"There's always bit masking? 24 bit ints are 32 bit ints masked by 0xFFFFFF, 7 bit ints are 8 bit ints masked by 0x7F.",0
+i did what what was suggested by you and installed the prerequisites.&#xA;now i am getting version compatibility issue for docker-compose.&#xA;pip is installing docker-compose v1.&#xA;i updated to docker-compose v2 and getting the error mentioned in my post.&#xA;i am trapped in this cycle where both the docker-compose versions are giving me errors.,0
+Hello and welcome to SO. Please add a working code snippet that reproduces your issue. Otherwise it would be hard for us to help you. And please PLEASE do not write code in other languages other than english. It would be a pain for other developers to debug/change/add to your code in the future.,0
+"Dump the feature flags _from where_, what's the source of that data?",0
+A tutorial on using cursors in stored procedures should show how to stop the loop when you reach the end of results.,0
+"The example you linked to is using ctypes to access TDLib's C JSON interface, documented [here](https://core.telegram.org/tdlib/docs/td__json__client_8h.html). (If you're not familiar with ctypes, the documentation for that is [here](https://docs.python.org/3/library/ctypes.html).)",0
+"For performance, you'll still have false sharing between all 64 threads whose bool shares a cache line.  If they finish at slightly separate times, this is fine, and makes it faster to collect the results and check that they're all `1`.  But if you're resetting to 0 and handing new work to different threads, might be better to spread this out more like with `std::atomic&lt;int&gt; elements (typically 4 bytes, a reasonable tradeoff of 16 threads sharing a 64-byte cache line.)",0
+"I'd rather go with `library(stringr)`. In this case I would do: `str_which(names(iris), &quot;Length&quot;)`",0
+Maybe check this -&gt;https://stackoverflow.com/q/13102045/21252090,0
+"I've created a few test feature flags inside my git repo, using the git lab UI @jonrsharpe",0
+Does this answer your question? [Keras ValueError: Dimensions must be equal - How to pass label-dependent values to custom loss function](https://stackoverflow.com/questions/62154660/keras-valueerror-dimensions-must-be-equal-how-to-pass-label-dependent-values),0
+"Dear Gabriele Petrioli, thank you so much for your quick response :) kindly check this question https://stackoverflow.com/questions/77788363/plyr-multiple-players-play-on-hover-and-pause-when-mouse-out",0
+"if the ID is auto generated, the solution is to remove the ID set in your code...",0
+"Creation is also asynchronous, but you don't `await` the promise `.create` returns.",0
+"@Vincent, this should not significantly change how a called function behaves.  You might be interested in https://stackoverflow.com/a/48727139/7311767",0
+Can they see inside the workspace?,0
+"what is your data-access framework? as in Spring it is not so easy to switch database connection within JdbcTemplate, or Spring Data JDBC.....",0
+"This is great, now we have Java code, too.  Thanks",0
+What if you simply put a full-screen MouseArea behind the dialog? In the onClicked handler close the dialog. Does that work?,0
+this is brilliant. somehow i couldn't find much on the internet.,0
+I don't suppose fooling with the &quot;pipeline state&quot; would help?  (ie as here for example https://stackoverflow.com/a/36039222/294884 ),0
+I see no benefit of using a library to do something that simple.,0
+"This is all the information in the exception:&#xA;System.ObjectDisposedException: 'Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.",90
+"What happens if you rename/delete `.tcshrc` entirely? If that file is being sourced, then your `csh` would appear to be `tcsh`, which will read from `.tcshrc` if it exists instead of `.cshrc`.",0
+"right, thank you! actually the pattern may be different but it shares the &amp;_C-alpha    e.g. i tested it with [ r_8-195_&amp;_C-alpha ], so the goal was to match any pattern :-D",0
+"Aside: `JSON_UNQUOTE(JSON_EXTRACT(col, &quot;path&quot;))` can be simplified to `col--&gt;&quot;path&quot;`. See [here](https://dev.mysql.com/doc/refman/8.0/en/json-search-functions.html#operator_json-inline-path)",0
+"If you don't know the ID why not use the URL-encoded path option? And what does _&quot;might have a syntax issue&quot;_ mean; give a [mre], it's usually unambiguous whether or not that's the case.",0
+@JohnWu I'm specifically trying to make the event handler delegate covariant so that I can use covariance in some other parts of my project.,0
+add numbers.clear() first line after def,0
+"@Sweeper thanks for those clarifications. You are absolutely correct about IList&lt;T&gt;, that was a stupid oversight on my part. I have updated to reflect that. I will admit to having not thought very far down the ICustomEventArgs&lt;out T&gt; route because that seems somehow ridiculously messy to me.  Is that the usual approach to situations like these?",0
+Did you notice the missing close quote here? `'methodA) {`,0
+"Python’s default arguments are evaluated only once when the function is defined, not each time the function is called. This means that if a mutable default argument is used and is mutated, it is mutated for all future calls to the function as well. This leads to buggy behaviour as the programmer expects the default value of that argument in each function call.",69
+[Please do not upload images of code/data/errors.](//meta.stackoverflow.com/q/285551),0
+"@jeb, yes I am.",0
+@IgnacioAlorre you have not the same `Row` class as in the question.,0
+I don't believe so. I already reuse pipeline states as recommended.,0
+"Fantastic! Thank you so much, this is also working, i found another way to fix it, I was accessing the list item by index. So instead of values[ 'Дата'] it would be values[0] or whichever column number date is. :)",0
+"`AGENT IN (NULL)` can never be true. `IN` uses `=` for comparison, and nothing is ever equal to `NULL`.",0
+It's so weird. Again it says `buffer` is null: &#xA;`ByteBuffer buffer = inputImage.getByteBuffer();` inputImage is ok though.,0
+"Please post you code in the question.  Personally, I do not follow links to offsite resources",0
+"When it tries to build openssl@3 from source, is it failing? What's the error there?",0
+@AndreasWenzel -- or OP functions could return structs that contain a status code member and a result member. The caller could then check the status code before proceeding.,0
+What constitutes &quot;*half*&quot; if `a.length % 2 != 0`?,0
+"Can you attach the top line of your python script? Probably it calls python and not python3, which is what you have installed. Change it to python3 and see if that works. I don't know if this is duplicate but the following answer should be helpful: https://stackoverflow.com/questions/6908143/should-i-put-shebang-in-python-scripts-and-what-form-should-it-take#19305076",0
+But to do that some server side changes are needed as far as I understand... currently the ASC and DESC are the ones that are allowed here. Do I understand you well?,0
+"Polygons don't have curves, you need a **path**.",0
+"@Bergi Actually, I just wondered what was coming, and because of that, I wrote there. It's an example. I wonder what we can do.",0
+"Without the password for your current vault, no one can test if the the content is effectively correct. Either give the password of the above vault if possible or create a new [mre] with totally dummy passwords with which you can reproduce the problem on your side and we can use to try to reproduce on our side. While you're at it, you must describe precisely how you create the vault string and how you checked it to conclude that &quot;it's ok&quot;. Please do not try to add any of those information in comments: [edit] your question.",0
+I checked the database In every table the Id column is Identity=True,0
+@ZdeněkJelínek ```private bool CustomerExists(int id)&#xA;{&#xA;    return (_context.Customer?.Any(e =&gt; e.Id == id)).GetValueOrDefault();&#xA;}```&#xA; this is the code of that function.,0
+"That would work just fine with my solutions. The only difference between your solution and mine is the regexp - I'm using `\[ .*_&amp;_C-alpha ]` while you're using `*_&amp;_C-alpha ]` and both will match part of `[ r_8-195_&amp;_C-alpha ]` (mine will match all of it, yours will match the end of it). My regexp is a bit more robust than yours (yours would match a line that doesn't have a `[` and/or has no &quot;something&quot; before `_&amp;_C-alpha`) but if you prefer your regexp then use it with either of my solutions, just replace my regexp with yours and leave the rest of my code as-is.",0
+Why do you think you need that `OR Agent IN (NULL)` condition?,0
+&quot;*the output is not coming out as expected*&quot; What *is* the output you're observing? Can you ensure you include this as part of your [mre]?,0
+"Table B is not a normalized data structure. Should not be a field for each name. If you really want this &quot;spreadsheet&quot;, then use VBA to build Table B or manually create fields.",0
+"Try removing the `Critical -1` line in `ShowRect` if your script has things that require thread interruption. However, the root of your problem involves the `SetTimer`. The way it's written, it'll often still be running when it tries to launch another instance, and the `WinWaitActive` will halt the thread indefinitely since it cannot be interrupted. In addition to removing `Critical -1`, you might add `Critical &quot;Off&quot;` in `test`. You should also read more about [Critical](https://www.autohotkey.com/docs/v2/lib/Critical.htm) and [SetTimer](https://www.autohotkey.com/docs/v2/lib/SetTimer.htm).",9
+Related: [Stack Overflow is *** *** ***not*** *** *** *** a forum](https://meta.stackoverflow.com/questions/36818/would-you-recommend-stackexchange-sites-vs-other-types-of-forum/36828#36828),0
+"Yes, it is failing (see Github URL issue). The only way I figured to solve it is to use the recipe in that issue https://github.com/openssl/openssl/issues/21306#issuecomment-1611250842",0
+"I'm tempted to close the question as a duplicate of [What is the effect of trailing white space in a `scanf()` format string?](https://stackoverflow.com/questions/19499060/what-is-the-effect-of-trailing-white-space-in-a-scanf-format-string)  In general, trailing white space in a `scanf()` format string is a bad idea; the user has to predict what the next input requires.",0
+The PAT needs to be Base64 encoded before you pass it in the Authorization header. https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&amp;tabs=Windows#use-a-pat-in-your-code,0
+Do you have idea why it doersn;t work?,0
+"(E.g., `csh --version` on my macOS box outputs `tcsh 6.21.00 ...`. `/bin/csh` is not a link to `/bin/tcsh`, but nevertheless *is* a `tcsh` executable.)",0
+"The example I found in the internet and based on the swagger documentation, this parameter should be in Request.Cookies and it there, but the original value is changed. My question is there anyway to configure swagger ui to send this parameter in a Cookie withoyt any additional manipulation over it.",0
+The problem is that by removing the xattr it still leaves the old-style &quot;Label&quot; set. That needs to be cleared separately (see Simon White's answer for that).,0
+You can click &quot;Edit&quot; and edit your question.,0
+"(Elaborating on the &quot;already non-blocking&quot; comment, `td_receive` only blocks if you tell it to, and only as long as you tell it to. `td_execute` is blocking, but you don't need to use it.)",0
+"I'd guess that unlike [buffering operations like the `.create()` query](https://mongoosejs.com/docs/connections.html#buffering), buffering `.disconnect()` wouldn't make sense &amp; that's why you're getting an error. Wait until the operation's done before disconnecting (do you need to do that here, at all?)",0
+"`COUNT(Agent)` only counts the non-null values of `Agent`. If you're only selecting `WHERE Agent IS NULL`, the count will always be 0. You want `COUNT(*)`. And there's no need for `GROUP BY Agent` if you're only selecting a single value of `Agent`.",0
+"You can use delays for that, without resorting to DispatchQueue.",0
+"Can you provide the DDL for that view?  Also, is it possible that you have a table using the same name?",0
+"In a postman, I'm sending request and backend returns this parameter in the cookie back to the client, the subsequent requests works like a charm. The same I'm expecting from swagger ui which has a documentation and some examples where you can use cookie to send your session id while trying to send request from swagger doc.",0
+"All of the above plus check if your node.lib is 32 or 64 bit and use the correct one. Also if you are using node 18.19.0 - folder path to unzip everything else mentioned above will be &quot;YOUR FOLDER PATH&quot;+\include\node. My path was C:\temp\include\node and I added a npmrc variable nodedir = C:\temp, then just did npm install",0
+"*&quot;I want to create the string in start_thread() but want to use it in the thread afterwards&quot;*. Since the object is not guarded by any synchronization object, you will face a race and end up with UB. If  outcome of the thread is set only once(analogous to `return`), use the `std::promise` + `std::future` duo. Otherwise, rethink your sync scheme.",0
+CMake 3.29 isn't released at the time of writing (I guess that's why someone downvoted you?) but `-DCMAKE_LINKER_TYPE=LLD` looks promising.,0
+"You also have the problem that you're checking for EOF from `scanf()`, but it will return `0` if it cannot understand the input before getting input.  You have `&quot;%s, %d\n&quot;` — that is guaranteed to fail because the `%s` stops scanning when the next character is white space (or EOF), and then the scanning won't get a comma (because the character in the input is white space), so the scanning stops.  Test for `if (scanf(&quot;%s, %d\n&quot;, …) == 2) { …OK… } else { …error… }`.  And use a format string like `&quot; %99[^,], %d&quot;` for the format string.  The `%[…]` (scan set) conversion does not skip white space.",42
+FWIW all modern browsers default to JavaScript so you can remove the `type=&quot;text/javascript&quot;` nowdays;,0
+"The lack of pagination is also unfortunate since it makes it easy for replies to apparently exceed internal Binder limits, resulting in log messages like &quot;BpBinder: Large outgoing transaction of 664288 bytes, interface descriptor , code 1&quot;, &quot;JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 664288)&quot;, and &quot;MBServiceCompat: Calling onLoadChildren() failed for id=... package=com.google.android.projection.gearhead&quot;. Media3 seems to silently truncate large replies instead.&#xA;&#xA;Even if Android Auto doesn't show all the items at once, it should probably still request them in batches.",0
+"Thanks. I'm worried about somebody sync the with the repo and getting the project without the cache. If I delete the file and open de project the model it's empty, and if I try to fill it by refreshing it it crashes.",0
+"Thanks, got that installed but running that throws an error so not sure if your example is correct for my scenario. `Invoke-Parallel : Exception calling &quot;Wait&quot; with &quot;1&quot; argument(s): &quot;One or more errors occurred.&quot;&#xA;At line:4 char:5&#xA;+     Invoke-Parallel {&#xA;+     ~~~~~~~~~~~~~~~~~&#xA;    + CategoryInfo          : NotSpecified: (:) [Invoke-Parallel], MethodInvocationException&#xA;    + FullyQualifiedErrorId : AggregateException,Invoke-Parallel`",0
+I don't understand the logic behind the output you want. Are you asking for combinations? Permutations? Some random thing with empty elements?,0
+I am not familiar with this IDE. How can I use it to execute encryptFile()/decryptFile() with test data?,0
+It didn't work on mac. It looks that on mac vsts-npm-auth is installed in the npm as a windows executable.,0
+did you got any solution,0
+"Unrelated to your question, in a couple of spots, you have `return` followed by a `print` statement. Probably needless to say, any `print` statements after a `return` will never be reached.",0
+Have you tried LookAt ? jb,0
+"@DavidMaze Thanks for the reply.  I'm still trying to understand your reply, my experience with docker and Linux is limited.  To be clear, we have docker running on our Windows and Linux systems, however our objective is to get the container running on Windows.  You mentioned we could try ssh, would the ssh command happen from inside the container, or do we ssh into the container from outside?  Would this allow us to forward the display?",0
+@merv Thank you! I could not `pip install - e` my local package in my conda environment properly (I was getting: &quot;Defaulting to user installation because normal site-packages is not writeable&quot; message). Using `conda run -n some_env pip install -e .` made it all work just fine!,0
+It would be advisable to - at least - post also the code that is not working. In this way no effort is shown and very likely the question will be closed after being down-voted multiple times.,0
+"Yes, it solves the issue I forgot to await create. Thanks",0
+Looks like maybe there is just a missing `require` in the source code?,0
+Yes i mean in the code you don't try to set value for Id field. or set it to 0 and see,0
+"Yes,  I agree with you, it should work but it doesn't, I think the problem is caused by React Native",0
+It appears that Visual Studio 2019 can also open these once the [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=visualstudioclient.MicrosoftVisualStudio2017InstallerProjects) extension is installed.,0
+"Could be a duplicate of _unanswered_ question [install error for EnMap-BOX 3.0, QGIS plugin](https://stackoverflow.com/q/77524383/21350362).",0
+I have this probably useful idea: coredump bash and see what is the content of readline global variables. Maybe I will get somewhere.,0
+Don't compare `scanf` and friends with `EOF` – check the number of conversions that were expected. If that is incorrect you can *then* figure out if it was EOF or stalled.,0
+"For same reason withdrawing $14,000,000,000 from my bank account does not work; it is not there to obtain.",0
+"Context is needed. Is this a single page application? Which framework, if any. Code sample of subscription. In terms of closing the browser, yes, memory is cleaned up but you don't want to rely on that",0
+"OK I gotha, thank you !",0
+"this doesnt help cuz i tryed remove &quot;TrimStrings&quot; that cause all trimming in laravel and it doesnt wokred at all, how this can solve my issue ?",0
+"Your code cannot work that way, you cannot cast from string to E if there is no cnstraint on E, making them related.",0
+And what is the problem with something as simple as [this](https://play.rust-lang.org/?version=stable&amp;mode=debug&amp;edition=2021&amp;gist=b3d1a5c1e4af187c820b5e0abaf2cf9b)?,0
+"I'm not sure which compiler setting is the &quot;canonical&quot; one in this use case(clang-cl on Linux). Using msvc usually short-circuits the build, but can cause issues with some packages that don't have compatible prebuilt packages in my experience.",0
+https://mongoplayground.net/p/7El8PFitw09  something like this maybe,0
+I'll update the answer. You need to study more about regular expressions.,0
+Check out the packages react page of the docs: https://stately.ai/docs/xstate-react,0
+Love `parallel` utility! Thanks,0
+There is also an open bug: https://github.com/EnMAP-Box/enmap-box/issues/760,0
+how can i use the FieldPanel for image background or image itself can you Please tell me,0
+Is there some specific problem taking however you access it _outside_ the pipeline logic and moving it there? All you need is an HTTP client (e.g. curl) then maybe something to process the response if it's not already how you want it (e.g. jq).,0
+"This same lib folder is also present within the .aab bundle itself. Change the .aab extension to .zip and extract it, then find it under the `base/` directory.&#xA;&#xA;Useful if you're running the builds in CI/CD and it only outputs the bundle but not the intermediate artifacts.",0
+"Find the four corners of the paper in an image, compute the 4 desired corners of a rectangle of the same size, then use +distort perspective to rectify the image to a perfect rectangle.  See the link above",0
+"`a` is an array `[set, get]` (and any further arguments, if they are passed)",0
+Rewrite to use `JOIN` instead of `IN ( SELECT ... )`,0
+Is the private key file an ASCII-armored text file or a binary file? You used mode `&quot;r&quot;` to open it.,0
+https://www.php.net/manual/en/control-structures.for.php,0
+"Replacing is not as simple as it sounds because it is not reliable that the &quot;«CLIENT_NAME»&quot; always is in one `XWPFRun`. See https://stackoverflow.com/search?tab=newest&amp;q=user%3a3915431%20textsegment&amp;searchOn=3 for this. And aside from that, the title page maybe in a `XWPFSDT` and not in a paragraph in text body.  See https://stackoverflow.com/questions/57726756/unable-to-read-all-content-in-order-of-a-word-document-docx-in-apache-poi/57735780#57735780 for a a working draft for how to traverse all body elements.",0
+I get `tar: can't change directory to '/home/azureuser/azpwork/agent/azpwork/2/.npm': No such file or directory`. There is no .npm file or directory on the linux agent.,0
+"Oh, that. Typo in the &quot;anonymized&quot; version. The actual code uses the correctly typed parameter name (or else it wouldn't have validate or run)",0
+"Not a replacement as such but, you can install setuptools in your virtual environment for your needs.",0
+"Hi @rwzdoorn, Were you able to change the permissions to that bucket?",0
+"You say you *sign a pdf file and get signed data* - but in what state do you sign it? As you are talking about a *pdf Signature Dictionary* you appear to be aware that the PDF must be prepared first (adding a new signature field or using an existing empty one; adding a signature dictionary as value of the field, ...), so you did prepare the PDF that way before you calculated the hash of that prepared PDF minus the signature placeholder, didn't you?",0
+"I've edited the post, just running a simple print function. &#xA;Do I need to save my file as tes.py3?",0
+"You can choose the start address and pass it to mmap. You should do it early, soon after process creation, so that it won't be used already.",0
+"Same here, I need to load this on an Ubuntu runner in Github Actions. The log outputs even shows that the loading was succesful. But when I try to instantiate a class, I get the same error: `Cannot find type [Namespace.Classname]: verify that the assembly containing this type is loaded`",0
+this has been resolved now thank you i am not sure where the answer has disappeared to,0
+You mean when they are connected to each other by either `move_dest_ids` or `move_orig_ids`?,0
+It's not in the &quot;Files&quot; sandbox. I use 2 MT5 one for trading and the other for optimization. I need to delete file from the optimization MT5 from the trading MT5,0
+"@Clippit Welcome, glad to help, but can you clarify how the code in the `setSearchParams` is unreachable? The callback version of `setSearchParams` was a later addition, what specific version of `react-router-dom` are you using?",0
+"I see. We need to wrap any responsive element in a `&lt;Container&gt;`, `&lt;Row&gt;`, and `&lt;Col&gt;` with definitions for the various breakpoints.&#xA;&#xA;Are there special elements where we would not like a navbar?",0
+"@RickN the reason i want to disconnect the in the end of the function because  after running program it doesnot exist, it just keep running even after the operation is done. I don't understand whats the logic behind it. I have to manually ctrl+c to stop the program.",0
+Hi @FunThomas&#xA;I tried using your code and it doesn't understand the &quot;Me&quot; in the inputbox function,0
+"I still can't figure out how to fix this. I checked the formatting of the columns, and all are formatted as General. I've edited the code to show what searches error out and those that do not. Seems like there's a pattern. At first, I thought it errors out on partial matches greater than 3 characters, but that's not consistent.",0
+"That, unfortunately, does not solve it. In fact, messing around with the snippet to purposefully use mismatchrd names cause the ExexuteReaderAsync to fail, complaining that invalid parameter names are used. In the straightforward version, the SQL statement executes, it gets the rows, but the output parameter value is null even if it runs fine with the right results in sql manager studio.",0
+"I think this is a question you should ask the security department of your company. As it stands, it's not really a question fit for stackoverflow, as it's more about security policies than programming.  Maybe for the security [stackexchange](https://security.stackexchange.com/)?",0
+"thank you for formating yaml file, will make sure not to upload images and providing suggestions and routing tree editor @markalex i will try matchers and update",0
+"Thanks, I guess this was the answer I was looking for. I definitely check for already present subscriptions and unsubscribe them if a subject gets subscribed again.",0
+Sure. I added the markdown code block a few minutes ago.,0
+"Out of curiosity, I set the seconds to 1 and it actually worked. If I set it to anything over 2, it fails. Is there a reason it is doing that? Also I basically need to get all the computers into an `@online` variable so that I can further process them, so how would I then add these to that if they are being done this way?",0
+@FurtherReading It would be helpful to have the final full solution as the accepted answer rather than the trouble shooting questions as the accepted answer.,0
+"You need to put the code (the upper part) in the Code-Behind module of the form itself, not in a regular module.",0
+"Why did you tag this with [pandas]? If you want to ask about both libraries, the title should reflect that. It'd also help to ask an actual question; see [ask].",0
+Just Installed Xcode 15.2 and same thing happened to me as above. This worked for me.,0
+And also try these modelbuilder.entity&lt;Payment&gt;().haskey(t =&gt; t.Id); to specify the key:&#xA;&#xA;modelbuilder.entity&lt;tblproduct&gt;().haskey(t =&gt; t.prodid);&#xA;to configure the property not being auto increment:&#xA;&#xA;modelbuilder.entity&lt;tblproduct&gt;().property(t =&gt; t.prodid).valuegeneratednever();,0
+"//www.google.fr  is valid. When you're on a website, if the website don't know if it's open with a http or http protocol, if you have  remove the protocol from the link, the navigator  will open the link with the current protocol.  This avoids switching from a secure protocol (https) to an insecure protocol (in an iframe for example)",0
+"If you want the answer helpful, don't remember to mark it as answer.",0
+"@caveman, good to know. In that case you should also have a look into [What should I do when someone answers my question?](https://stackoverflow.com/help/someone-answers)",0
+I am also very confident (90% at least) that this issue did not happen in earlier Chrome versions as I remember using scrollbar gutter for simular reasons without having this issue. If anyone who hasn`t updated chrome in a couple of months could check that would be amazing,0
+Read https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt and note that the function will return **space** when the index is &quot;out of the range of 0 – ***str.length - 1***&quot;.,0
+@MohasinAli to include line break and carriage returns just add the flag `\m`. check this [demo](https://tools.waytolearnx.com/en/regex-tester/93d77624fe3f).,0
+"So Github Actions is used to deploy our Terraform but once a PR is merged, we require manual approval or rejection of the tf plans before deploying the infrastructure. Sometimes, an error in the code is missed after the PR is merged, so I want to be able to bulk reject all of the associated jobs that would normally need manual intervention to reject or approve using a Github API call. @BenjaminW.",0
+"Yep, good point, added DTor definition to the answer.",0
+Did you setup the interpreter as described at https://stackoverflow.com/questions/47602151/how-to-change-interpreter-in-visual-studio-code ?,0
+"@Nikos See the [`add` documentation](https://tc39.es/proposal-temporal/docs/instant.html#add). Either drop the `.toInstant()` and `Instant.from`, or add `.toZonedDateTimeISO('UTC')` to convert the instant back to the `ZonedDateTime` you started with.",0
+"@BenVoigt Yes, true. Exclude the pathological cases before doing the main path.",0
+"Filenames with parens in them !?.... You'lll be sorryyyyy (-; Parens are used in reg-ex, and shell context and make if more difficult to do anything else with your filenames. Use a different format, maybe `_2001_` ? (All IMHO). Good luck!",0
